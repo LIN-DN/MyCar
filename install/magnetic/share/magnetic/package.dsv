@@ -1,0 +1,8 @@
+source;share/magnetic/hook/cmake_prefix_path.ps1
+source;share/magnetic/hook/cmake_prefix_path.dsv
+source;share/magnetic/hook/cmake_prefix_path.sh
+source;share/magnetic/local_setup.bash
+source;share/magnetic/local_setup.dsv
+source;share/magnetic/local_setup.ps1
+source;share/magnetic/local_setup.sh
+source;share/magnetic/local_setup.zsh

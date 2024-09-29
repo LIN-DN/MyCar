@@ -1,0 +1,23 @@
+[1.465s] Invoking command in '/home/cat/agv_ws/build/magnetic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/magnetic -- -j8 -l8
+[2.752s] [100%] Built target magnetic
+[2.754s] Invoked command in '/home/cat/agv_ws/build/magnetic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/magnetic -- -j8 -l8
+[2.826s] Invoking command in '/home/cat/agv_ws/build/magnetic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/magnetic
+[2.857s] -- Install configuration: ""
+[2.860s] -- Execute custom install script
+[2.861s] -- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/lib/magnetic/magnetic
+[2.862s] -- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/ament_index/resource_index/package_run_dependencies/magnetic
+[2.864s] -- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/ament_index/resource_index/parent_prefix_path/magnetic
+[2.865s] -- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/environment/ament_prefix_path.sh
+[2.865s] -- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/environment/ament_prefix_path.dsv
+[2.868s] -- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/environment/path.sh
+[2.869s] -- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/environment/path.dsv
+[2.870s] -- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.bash
+[2.871s] -- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.sh
+[2.872s] -- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.zsh
+[2.873s] -- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.dsv
+[2.874s] -- Symlinking: /home/cat/agv_ws/install/magnetic/share/magnetic/package.dsv
+[2.912s] -- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/ament_index/resource_index/packages/magnetic
+[2.914s] -- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/cmake/magneticConfig.cmake
+[2.917s] -- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/cmake/magneticConfig-version.cmake
+[2.920s] -- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/package.xml
+[2.923s] Invoked command in '/home/cat/agv_ws/build/magnetic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/magnetic

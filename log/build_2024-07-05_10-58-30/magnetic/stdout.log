@@ -1,0 +1,19 @@
+[100%] Built target magnetic
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/lib/magnetic/magnetic
+-- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/ament_index/resource_index/package_run_dependencies/magnetic
+-- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/ament_index/resource_index/parent_prefix_path/magnetic
+-- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/environment/path.sh
+-- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/environment/path.dsv
+-- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.bash
+-- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.sh
+-- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.zsh
+-- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.dsv
+-- Symlinking: /home/cat/agv_ws/install/magnetic/share/magnetic/package.dsv
+-- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/ament_index/resource_index/packages/magnetic
+-- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/cmake/magneticConfig.cmake
+-- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/cmake/magneticConfig-version.cmake
+-- Up-to-date symlink: /home/cat/agv_ws/install/magnetic/share/magnetic/package.xml

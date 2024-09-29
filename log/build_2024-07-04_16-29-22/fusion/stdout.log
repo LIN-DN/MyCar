@@ -1,0 +1,83 @@
+running egg_info
+creating ../../build/fusion/fusion.egg-info
+writing ../../build/fusion/fusion.egg-info/PKG-INFO
+writing dependency_links to ../../build/fusion/fusion.egg-info/dependency_links.txt
+writing entry points to ../../build/fusion/fusion.egg-info/entry_points.txt
+writing requirements to ../../build/fusion/fusion.egg-info/requires.txt
+writing top-level names to ../../build/fusion/fusion.egg-info/top_level.txt
+writing manifest file '../../build/fusion/fusion.egg-info/SOURCES.txt'
+reading manifest file '../../build/fusion/fusion.egg-info/SOURCES.txt'
+writing manifest file '../../build/fusion/fusion.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/cat/agv_ws/build/fusion/build
+creating /home/cat/agv_ws/build/fusion/build/lib
+creating /home/cat/agv_ws/build/fusion/build/lib/fusion
+copying fusion/__init__.py -> /home/cat/agv_ws/build/fusion/build/lib/fusion
+copying fusion/testTrak.py -> /home/cat/agv_ws/build/fusion/build/lib/fusion
+copying fusion/UWB.py -> /home/cat/agv_ws/build/fusion/build/lib/fusion
+copying fusion/errorAnalyse.py -> /home/cat/agv_ws/build/fusion/build/lib/fusion
+copying fusion/trakingUAV.py -> /home/cat/agv_ws/build/fusion/build/lib/fusion
+copying fusion/main.py -> /home/cat/agv_ws/build/fusion/build/lib/fusion
+creating /home/cat/agv_ws/build/fusion/build/lib/fusion/rvizPlot
+copying fusion/rvizPlot/__init__.py -> /home/cat/agv_ws/build/fusion/build/lib/fusion/rvizPlot
+copying fusion/rvizPlot/mocapPath.py -> /home/cat/agv_ws/build/fusion/build/lib/fusion/rvizPlot
+copying fusion/rvizPlot/uwbPath.py -> /home/cat/agv_ws/build/fusion/build/lib/fusion/rvizPlot
+copying fusion/rvizPlot/fusedPath.py -> /home/cat/agv_ws/build/fusion/build/lib/fusion/rvizPlot
+creating /home/cat/agv_ws/build/fusion/build/lib/fusion/settings
+copying fusion/settings/__init__.py -> /home/cat/agv_ws/build/fusion/build/lib/fusion/settings
+copying fusion/settings/config.py -> /home/cat/agv_ws/build/fusion/build/lib/fusion/settings
+copying fusion/settings/utils.py -> /home/cat/agv_ws/build/fusion/build/lib/fusion/settings
+copying fusion/settings/ESKF.py -> /home/cat/agv_ws/build/fusion/build/lib/fusion/settings
+running install
+running install_lib
+creating /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/cat/agv_ws/build/fusion/build/lib/fusion/__init__.py -> /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/cat/agv_ws/build/fusion/build/lib/fusion/testTrak.py -> /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/cat/agv_ws/build/fusion/build/lib/fusion/UWB.py -> /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion
+creating /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/rvizPlot
+copying /home/cat/agv_ws/build/fusion/build/lib/fusion/rvizPlot/__init__.py -> /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/rvizPlot
+copying /home/cat/agv_ws/build/fusion/build/lib/fusion/rvizPlot/mocapPath.py -> /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/rvizPlot
+copying /home/cat/agv_ws/build/fusion/build/lib/fusion/rvizPlot/uwbPath.py -> /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/rvizPlot
+copying /home/cat/agv_ws/build/fusion/build/lib/fusion/rvizPlot/fusedPath.py -> /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/rvizPlot
+creating /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/settings
+copying /home/cat/agv_ws/build/fusion/build/lib/fusion/settings/__init__.py -> /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/settings
+copying /home/cat/agv_ws/build/fusion/build/lib/fusion/settings/config.py -> /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/settings
+copying /home/cat/agv_ws/build/fusion/build/lib/fusion/settings/utils.py -> /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/settings
+copying /home/cat/agv_ws/build/fusion/build/lib/fusion/settings/ESKF.py -> /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/settings
+copying /home/cat/agv_ws/build/fusion/build/lib/fusion/errorAnalyse.py -> /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/cat/agv_ws/build/fusion/build/lib/fusion/trakingUAV.py -> /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/cat/agv_ws/build/fusion/build/lib/fusion/main.py -> /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion
+byte-compiling /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/testTrak.py to testTrak.cpython-310.pyc
+byte-compiling /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/UWB.py to UWB.cpython-310.pyc
+byte-compiling /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/rvizPlot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/rvizPlot/mocapPath.py to mocapPath.cpython-310.pyc
+byte-compiling /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/rvizPlot/uwbPath.py to uwbPath.cpython-310.pyc
+byte-compiling /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/rvizPlot/fusedPath.py to fusedPath.cpython-310.pyc
+byte-compiling /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/settings/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/settings/config.py to config.cpython-310.pyc
+byte-compiling /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/settings/utils.py to utils.cpython-310.pyc
+byte-compiling /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/settings/ESKF.py to ESKF.cpython-310.pyc
+byte-compiling /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/errorAnalyse.py to errorAnalyse.cpython-310.pyc
+byte-compiling /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/trakingUAV.py to trakingUAV.cpython-310.pyc
+byte-compiling /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion/main.py to main.cpython-310.pyc
+running install_data
+creating /home/cat/agv_ws/install/fusion/share/ament_index
+creating /home/cat/agv_ws/install/fusion/share/ament_index/resource_index
+creating /home/cat/agv_ws/install/fusion/share/ament_index/resource_index/packages
+copying resource/fusion -> /home/cat/agv_ws/install/fusion/share/ament_index/resource_index/packages
+copying package.xml -> /home/cat/agv_ws/install/fusion/share/fusion
+creating /home/cat/agv_ws/install/fusion/share/fusion/launch
+copying launch/fusionTest.launch.py -> /home/cat/agv_ws/install/fusion/share/fusion/launch
+copying launch/allTest.launch.py -> /home/cat/agv_ws/install/fusion/share/fusion/launch
+running install_egg_info
+Copying ../../build/fusion/fusion.egg-info to /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion-0.0.0-py3.10.egg-info
+running install_scripts
+Installing Error_node script to /home/cat/agv_ws/install/fusion/lib/fusion
+Installing UWB_distance script to /home/cat/agv_ws/install/fusion/lib/fusion
+Installing fusion_Path script to /home/cat/agv_ws/install/fusion/lib/fusion
+Installing fusion_location script to /home/cat/agv_ws/install/fusion/lib/fusion
+Installing mocap_Path script to /home/cat/agv_ws/install/fusion/lib/fusion
+Installing uwb_Path script to /home/cat/agv_ws/install/fusion/lib/fusion
+writing list of installed files to '/home/cat/agv_ws/build/fusion/install.log'

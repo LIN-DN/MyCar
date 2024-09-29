@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cat/agv_ws/build/vrpn_client_ros/vrpn_tracker_node" "/home/cat/agv_ws/build/vrpn_client_ros/vrpn_client_node" "TARGETS" "vrpn_tracker_node" "vrpn_client_node" "DESTINATION" "lib/vrpn_client_ros")

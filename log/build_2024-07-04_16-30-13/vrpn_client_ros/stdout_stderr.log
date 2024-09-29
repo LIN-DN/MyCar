@@ -1,0 +1,64 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_kdl: 0.25.4 (/opt/ros/humble/share/tf2_kdl/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/cat/agv_ws/src/vrpn_client_ros/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cat/agv_ws/build/vrpn_client_ros
+[35m[1mConsolidate compiler generated dependencies of target vrpn_client_ros[0m
+[ 33%] Built target vrpn_client_ros
+[35m[1mConsolidate compiler generated dependencies of target vrpn_client_node[0m
+[35m[1mConsolidate compiler generated dependencies of target vrpn_tracker_node[0m
+[ 50%] [32m[1mLinking CXX executable vrpn_tracker_node[0m
+[ 66%] [32m[1mLinking CXX executable vrpn_client_node[0m
+[ 83%] Built target vrpn_client_node
+[100%] Built target vrpn_tracker_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch/sample.launch.py
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/sample.params.yaml
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/lib/libvrpn_client_ros.a
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/lib/vrpn_client_ros/vrpn_tracker_node
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/lib/vrpn_client_ros/vrpn_client_node
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/ament_index/resource_index/package_run_dependencies/vrpn_client_ros
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/ament_index/resource_index/parent_prefix_path/vrpn_client_ros
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/ament_prefix_path.sh
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/path.sh
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/path.dsv
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.bash
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.sh
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.zsh
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.dsv
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.dsv
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/ament_index/resource_index/packages/vrpn_client_ros
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig.cmake
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake
+-- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.xml

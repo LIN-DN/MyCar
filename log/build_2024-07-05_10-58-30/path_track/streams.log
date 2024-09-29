@@ -1,0 +1,18 @@
+[3.630s] Invoking command in '/home/cat/agv_ws/build/path_track': PYTHONPATH=/home/cat/agv_ws/build/path_track/prefix_override:/home/cat/agv_ws/install/path_track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cat/agv_ws/build/path_track/build --no-deps install_data
+[4.062s] running develop
+[4.326s] running egg_info
+[4.326s] writing path_track.egg-info/PKG-INFO
+[4.327s] writing dependency_links to path_track.egg-info/dependency_links.txt
+[4.328s] writing entry points to path_track.egg-info/entry_points.txt
+[4.331s] writing requirements to path_track.egg-info/requires.txt
+[4.331s] writing top-level names to path_track.egg-info/top_level.txt
+[4.331s] reading manifest file 'path_track.egg-info/SOURCES.txt'
+[4.333s] writing manifest file 'path_track.egg-info/SOURCES.txt'
+[4.335s] running build_ext
+[4.337s] Creating /home/cat/agv_ws/install/path_track/lib/python3.10/site-packages/path-track.egg-link (link to .)
+[4.338s] Installing mpc_tracker script to /home/cat/agv_ws/install/path_track/lib/path_track
+[4.338s] Installing stanley_tracker script to /home/cat/agv_ws/install/path_track/lib/path_track
+[4.339s] 
+[4.339s] Installed /home/cat/agv_ws/build/path_track
+[4.339s] running install_data
+[4.624s] Invoked command in '/home/cat/agv_ws/build/path_track' returned '0': PYTHONPATH=/home/cat/agv_ws/build/path_track/prefix_override:/home/cat/agv_ws/install/path_track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cat/agv_ws/build/path_track/build --no-deps install_data

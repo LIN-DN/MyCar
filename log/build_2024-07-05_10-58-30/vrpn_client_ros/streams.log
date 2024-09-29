@@ -1,0 +1,29 @@
+[2.120s] Invoking command in '/home/cat/agv_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/vrpn_client_ros -- -j8 -l8
+[2.342s] [ 33%] Built target vrpn_client_ros
+[2.410s] [ 66%] Built target vrpn_client_node
+[2.431s] [100%] Built target vrpn_tracker_node
+[2.630s] Invoked command in '/home/cat/agv_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/vrpn_client_ros -- -j8 -l8
+[2.785s] Invoking command in '/home/cat/agv_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/vrpn_client_ros
+[2.807s] -- Install configuration: ""
+[2.809s] -- Execute custom install script
+[2.811s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch/sample.launch.py
+[2.812s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/sample.params.yaml
+[2.814s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/lib/libvrpn_client_ros.a
+[2.815s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/lib/vrpn_client_ros/vrpn_tracker_node
+[2.815s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/lib/vrpn_client_ros/vrpn_client_node
+[2.816s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/ament_index/resource_index/package_run_dependencies/vrpn_client_ros
+[2.817s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/ament_index/resource_index/parent_prefix_path/vrpn_client_ros
+[2.818s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/ament_prefix_path.sh
+[2.818s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/ament_prefix_path.dsv
+[2.820s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/path.sh
+[2.820s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/path.dsv
+[2.822s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.bash
+[2.822s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.sh
+[2.823s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.zsh
+[2.824s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.dsv
+[2.824s] -- Symlinking: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.dsv
+[2.838s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/ament_index/resource_index/packages/vrpn_client_ros
+[2.839s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig.cmake
+[2.840s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake
+[2.840s] -- Up-to-date symlink: /home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.xml
+[2.847s] Invoked command in '/home/cat/agv_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/vrpn_client_ros

@@ -1,0 +1,97 @@
+fusion功能包实现imu+UWB融合定位功能
+
+一、文件结构及说明         
+workspace （工作空间）
+|-> ...
+|-> src
+      |-> fusion 
+             |-> fusion    (代码执行区)
+                    |-> settings            (*参数文件夹，需要被调用)
+                           |->__init__.py 
+                           |-> config.py         # 参数文件
+                           |-> utils.py          # 自定义函数合集
+                           |-> ESKF.py           # 误差状态卡尔曼滤波器融合模型
+                    |-> rvizPlot            (*功能文件夹, 需要调用cofig包)
+                           |->__init__.py 
+                           |-> fusedPath.py      # 融合定位轨迹图
+                           |-> mocapPath.py      # 动捕定位轨迹图
+                           |-> uwbPath.py        # 纯uwb定位轨迹图
+                    |-> standard            (*测试文件夹,需要调用cofig包)
+                           |->__init__.py
+                           |-> standard_IMU.py   # imu模块静偏测试
+                           |-> standard_UWB.py   # 半自动化UWB标定程序 标定结果输出回归系数A和B
+                    |->__init__.py 
+                    |-> main.py              # 融合主程序 发布融合定位结果话题
+                    |-> UWB.py               # UWB解析代码 发布UWB测距话题
+                    |-> errorAnalyse.py      # 定位误差分析
+             |-> launch     (*lauch文件夹,批量启动节点)
+                    |-> allTest.launch.py        # 所有节点启动 imu_node, UWB_distance, uwb_Path, fusion_location, fusion_Path, mocap_Path, Error_node
+                    |-> fusionTest.launch.py     # 融合相关节点启动 imu_node, UWB_distance,fusion_location,fusion_Path
+             |-> resource
+                    |-> ...
+             |-> test
+                    |-> ...
+             |-> package.xml
+             |-> setup.cfg
+             |-> setup.py    (配置文件 告诉ros文件怎么组织)
+
+
+二、UWB半自动化标定流程说明
+1.确定UWB基站坐标并修改·/config.py下的self.standard_anchor
+2.启动遥控器控制
+  ros2 launch wheeltec_joy wheeltec_wire_joy.launch.py 
+3.运行标定程序
+  ros2 run fusion standard_UWB
+4.按下手柄 <R1> 键启动记录器
+5.根据提示将小车放置在指定测试位（最好标签天线与测试位垂直方向上重合），并按下手柄 <L1> 键开始记录数据，等待记录结束语
+6.点击手柄 <B> 键可以删除当前最新一条记录
+7.重复4、5直至所有测试位均记录结束
+8.点击手柄 <A> 键查看标定系数A、B计算结果, 修改·/config.py文件下的self.a和self.b
+
+三、融合定位说明
+* 车辆初始状态下需与全局坐标系基本一致 即四元数接近[1,0,0,0]
+1.启动IMU节点 发布ros标准imu消息类型
+ros2 run data_publishing imu                     # 沈阳小车IMU
+ros2 run chassis_control car_motion_control      # IMU集成板
+2.启动UWB节点 发布基站与标测距列表消息
+ros2 run fusion UWB_distance
+3.启动融合定位 发布自定义融合结果消息 包括pos vel eul 详细参考src/car_interfaces/msg/Fused.msg
+ros2 run fusion fusion_location
+1~3一键启动 ros2 launch fusion fusionTest.launch.py
+
+四、话题列表
+/tf
+/Fused/pose
+/Mocap/pose
+
+/car
+/car2/pose
+/car2_Marker1/pose
+/car2_Marker2/pose
+/car2_Marker3/pose
+
+/imu
+/uwb_distance
+/rfid_data
+
+/odom
+
+ros2 bag record /imu /uwb_distance /rfid_data /car2/pose /Fused/pose /Mocap/pose /tf
+
+五、数据频率
+IMU 800~1000HZ
+UWB 50HZ
+动捕系统 60HZ
+动捕解算Mocap 纯Path 10HZ
+动捕解算Mocap 纯PoseStamped 60HZ
+动捕解算Mocap Path+PoseStamped PoseStamped 时间越久频率越慢 (Path量大)
+融合定位 纯PoseStamped 30~40HZ 1次imu 1次UWB
+
+
+ 计算器计算欧式距离
+ ((0.0−0.6)^2+(0.0−1.2)^2+(0.52−0.29)^2)^0.5
+ 
+
+
+
+

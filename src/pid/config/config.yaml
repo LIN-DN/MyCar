@@ -1,0 +1,7 @@
+PID_P: 0.1
+PID_I: 0.1
+PID_D: 0.1
+Car_type: 1
+Speculative_time: 2
+Wheel_base: 0.2
+Wheel_pitch: 0.2

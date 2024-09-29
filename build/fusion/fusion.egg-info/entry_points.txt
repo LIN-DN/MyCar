@@ -1,0 +1,8 @@
+[console_scripts]
+Error_node = fusion.errorAnalyse:main
+UWB_distance = fusion.UWB:main
+fusion_Path = fusion.rvizPlot.fusedPath:main
+fusion_location = fusion.main:main
+mocap_Path = fusion.rvizPlot.mocapPath:main
+uwb_Path = fusion.rvizPlot.uwbPath:main
+

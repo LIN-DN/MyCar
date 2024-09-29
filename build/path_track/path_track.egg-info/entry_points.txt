@@ -1,0 +1,4 @@
+[console_scripts]
+mpc_tracker = path_track.mpc:main
+stanley_tracker = path_track.stanley:main
+

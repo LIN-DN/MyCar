@@ -1,0 +1,4 @@
+source;share/magnetic/local_setup.bash
+source;share/magnetic/local_setup.dsv
+source;share/magnetic/local_setup.sh
+source;share/magnetic/local_setup.zsh

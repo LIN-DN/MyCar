@@ -1,0 +1,23 @@
+[2.333s] Invoking command in '/home/cat/agv_ws/build/pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/pid -- -j8 -l8
+[2.534s] [100%] Built target pid
+[2.634s] Invoked command in '/home/cat/agv_ws/build/pid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/pid -- -j8 -l8
+[2.863s] Invoking command in '/home/cat/agv_ws/build/pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/pid
+[2.887s] -- Install configuration: ""
+[2.888s] -- Execute custom install script
+[2.890s] -- Up-to-date symlink: /home/cat/agv_ws/install/pid/lib/pid/pid
+[2.891s] -- Up-to-date symlink: /home/cat/agv_ws/install/pid/share/ament_index/resource_index/package_run_dependencies/pid
+[2.893s] -- Up-to-date symlink: /home/cat/agv_ws/install/pid/share/ament_index/resource_index/parent_prefix_path/pid
+[2.894s] -- Up-to-date symlink: /home/cat/agv_ws/install/pid/share/pid/environment/ament_prefix_path.sh
+[2.895s] -- Up-to-date symlink: /home/cat/agv_ws/install/pid/share/pid/environment/ament_prefix_path.dsv
+[2.896s] -- Up-to-date symlink: /home/cat/agv_ws/install/pid/share/pid/environment/path.sh
+[2.897s] -- Up-to-date symlink: /home/cat/agv_ws/install/pid/share/pid/environment/path.dsv
+[2.898s] -- Up-to-date symlink: /home/cat/agv_ws/install/pid/share/pid/local_setup.bash
+[2.899s] -- Up-to-date symlink: /home/cat/agv_ws/install/pid/share/pid/local_setup.sh
+[2.900s] -- Up-to-date symlink: /home/cat/agv_ws/install/pid/share/pid/local_setup.zsh
+[2.901s] -- Up-to-date symlink: /home/cat/agv_ws/install/pid/share/pid/local_setup.dsv
+[2.901s] -- Symlinking: /home/cat/agv_ws/install/pid/share/pid/package.dsv
+[2.934s] -- Up-to-date symlink: /home/cat/agv_ws/install/pid/share/ament_index/resource_index/packages/pid
+[2.935s] -- Up-to-date symlink: /home/cat/agv_ws/install/pid/share/pid/cmake/pidConfig.cmake
+[2.935s] -- Up-to-date symlink: /home/cat/agv_ws/install/pid/share/pid/cmake/pidConfig-version.cmake
+[2.936s] -- Up-to-date symlink: /home/cat/agv_ws/install/pid/share/pid/package.xml
+[2.943s] Invoked command in '/home/cat/agv_ws/build/pid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/pid

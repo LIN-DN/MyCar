@@ -1,0 +1,77 @@
+[4.010s] Invoking command in '/home/cat/agv_ws/src/path_plan': PYTHONPATH=/home/cat/agv_ws/build/path_plan/prefix_override:/home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_plan build --build-base /home/cat/agv_ws/build/path_plan/build install --record /home/cat/agv_ws/build/path_plan/install.log --single-version-externally-managed
+[4.635s] running egg_info
+[4.635s] creating ../../build/path_plan/path_plan.egg-info
+[4.635s] writing ../../build/path_plan/path_plan.egg-info/PKG-INFO
+[4.635s] writing dependency_links to ../../build/path_plan/path_plan.egg-info/dependency_links.txt
+[4.635s] writing entry points to ../../build/path_plan/path_plan.egg-info/entry_points.txt
+[4.636s] writing requirements to ../../build/path_plan/path_plan.egg-info/requires.txt
+[4.636s] writing top-level names to ../../build/path_plan/path_plan.egg-info/top_level.txt
+[4.637s] writing manifest file '../../build/path_plan/path_plan.egg-info/SOURCES.txt'
+[4.638s] reading manifest file '../../build/path_plan/path_plan.egg-info/SOURCES.txt'
+[4.639s] writing manifest file '../../build/path_plan/path_plan.egg-info/SOURCES.txt'
+[4.640s] running build
+[4.641s] running build_py
+[4.642s] creating /home/cat/agv_ws/build/path_plan/build
+[4.644s] creating /home/cat/agv_ws/build/path_plan/build/lib
+[4.645s] creating /home/cat/agv_ws/build/path_plan/build/lib/path_plan
+[4.646s] copying path_plan/__init__.py -> /home/cat/agv_ws/build/path_plan/build/lib/path_plan
+[4.646s] copying path_plan/hybridAStar.py -> /home/cat/agv_ws/build/path_plan/build/lib/path_plan
+[4.646s] copying path_plan/planner.py -> /home/cat/agv_ws/build/path_plan/build/lib/path_plan
+[4.646s] copying path_plan/obstacleMap.py -> /home/cat/agv_ws/build/path_plan/build/lib/path_plan
+[4.646s] creating /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator
+[4.646s] copying path_plan/CurvesGenerator/draw.py -> /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator
+[4.647s] copying path_plan/CurvesGenerator/dubins_path.py -> /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator
+[4.648s] copying path_plan/CurvesGenerator/reeds_shepp.py -> /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator
+[4.649s] copying path_plan/CurvesGenerator/__init__.py -> /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator
+[4.649s] copying path_plan/CurvesGenerator/quartic_polynomial.py -> /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator
+[4.649s] copying path_plan/CurvesGenerator/cubic_spline.py -> /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator
+[4.650s] copying path_plan/CurvesGenerator/quintic_polynomial.py -> /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator
+[4.650s] copying path_plan/CurvesGenerator/bezier_path.py -> /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator
+[4.651s] copying path_plan/CurvesGenerator/bspline_curve.py -> /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator
+[4.651s] creating /home/cat/agv_ws/build/path_plan/build/lib/path_plan/map
+[4.652s] copying path_plan/map/__init__.py -> /home/cat/agv_ws/build/path_plan/build/lib/path_plan/map
+[4.653s] running install
+[4.653s] running install_lib
+[4.654s] creating /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan
+[4.654s] creating /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator
+[4.655s] copying /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator/draw.py -> /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator
+[4.655s] copying /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator/dubins_path.py -> /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator
+[4.656s] copying /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator/reeds_shepp.py -> /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator
+[4.656s] copying /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator/__init__.py -> /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator
+[4.656s] copying /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator/quartic_polynomial.py -> /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator
+[4.657s] copying /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator/cubic_spline.py -> /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator
+[4.657s] copying /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator/quintic_polynomial.py -> /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator
+[4.658s] copying /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator/bezier_path.py -> /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator
+[4.658s] copying /home/cat/agv_ws/build/path_plan/build/lib/path_plan/CurvesGenerator/bspline_curve.py -> /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator
+[4.659s] copying /home/cat/agv_ws/build/path_plan/build/lib/path_plan/__init__.py -> /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan
+[4.662s] copying /home/cat/agv_ws/build/path_plan/build/lib/path_plan/hybridAStar.py -> /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan
+[4.664s] creating /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/map
+[4.665s] copying /home/cat/agv_ws/build/path_plan/build/lib/path_plan/map/__init__.py -> /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/map
+[4.668s] copying /home/cat/agv_ws/build/path_plan/build/lib/path_plan/planner.py -> /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan
+[4.678s] copying /home/cat/agv_ws/build/path_plan/build/lib/path_plan/obstacleMap.py -> /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan
+[4.680s] byte-compiling /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator/draw.py to draw.cpython-310.pyc
+[4.682s] byte-compiling /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator/dubins_path.py to dubins_path.cpython-310.pyc
+[4.683s] byte-compiling /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator/reeds_shepp.py to reeds_shepp.cpython-310.pyc
+[4.684s] byte-compiling /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator/__init__.py to __init__.cpython-310.pyc
+[4.685s] byte-compiling /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator/quartic_polynomial.py to quartic_polynomial.cpython-310.pyc
+[4.686s] byte-compiling /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator/cubic_spline.py to cubic_spline.cpython-310.pyc
+[4.687s] byte-compiling /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator/quintic_polynomial.py to quintic_polynomial.cpython-310.pyc
+[4.687s] byte-compiling /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator/bezier_path.py to bezier_path.cpython-310.pyc
+[4.688s] byte-compiling /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/CurvesGenerator/bspline_curve.py to bspline_curve.cpython-310.pyc
+[4.688s] byte-compiling /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/__init__.py to __init__.cpython-310.pyc
+[4.688s] byte-compiling /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/hybridAStar.py to hybridAStar.cpython-310.pyc
+[4.688s] byte-compiling /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/map/__init__.py to __init__.cpython-310.pyc
+[4.688s] byte-compiling /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/planner.py to planner.cpython-310.pyc
+[4.688s] byte-compiling /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan/obstacleMap.py to obstacleMap.cpython-310.pyc
+[4.689s] running install_data
+[4.689s] creating /home/cat/agv_ws/install/path_plan/share/ament_index
+[4.689s] creating /home/cat/agv_ws/install/path_plan/share/ament_index/resource_index
+[4.689s] creating /home/cat/agv_ws/install/path_plan/share/ament_index/resource_index/packages
+[4.689s] copying resource/path_plan -> /home/cat/agv_ws/install/path_plan/share/ament_index/resource_index/packages
+[4.690s] copying package.xml -> /home/cat/agv_ws/install/path_plan/share/path_plan
+[4.690s] running install_egg_info
+[4.690s] Copying ../../build/path_plan/path_plan.egg-info to /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path_plan-0.0.0-py3.10.egg-info
+[4.690s] running install_scripts
+[4.690s] Installing path_planner script to /home/cat/agv_ws/install/path_plan/lib/path_plan
+[4.690s] writing list of installed files to '/home/cat/agv_ws/build/path_plan/install.log'
+[4.861s] Invoked command in '/home/cat/agv_ws/src/path_plan' returned '0': PYTHONPATH=/home/cat/agv_ws/build/path_plan/prefix_override:/home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_plan build --build-base /home/cat/agv_ws/build/path_plan/build install --record /home/cat/agv_ws/build/path_plan/install.log --single-version-externally-managed

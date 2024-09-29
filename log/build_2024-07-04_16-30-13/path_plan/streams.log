@@ -1,0 +1,17 @@
+[3.692s] Invoking command in '/home/cat/agv_ws/build/path_plan': PYTHONPATH=/home/cat/agv_ws/build/path_plan/prefix_override:/home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cat/agv_ws/build/path_plan/build --no-deps install_data
+[4.136s] running develop
+[4.405s] running egg_info
+[4.405s] writing path_plan.egg-info/PKG-INFO
+[4.405s] writing dependency_links to path_plan.egg-info/dependency_links.txt
+[4.405s] writing entry points to path_plan.egg-info/entry_points.txt
+[4.405s] writing requirements to path_plan.egg-info/requires.txt
+[4.405s] writing top-level names to path_plan.egg-info/top_level.txt
+[4.406s] reading manifest file 'path_plan.egg-info/SOURCES.txt'
+[4.406s] writing manifest file 'path_plan.egg-info/SOURCES.txt'
+[4.408s] running build_ext
+[4.409s] Creating /home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages/path-plan.egg-link (link to .)
+[4.410s] Installing path_planner script to /home/cat/agv_ws/install/path_plan/lib/path_plan
+[4.411s] 
+[4.411s] Installed /home/cat/agv_ws/build/path_plan
+[4.411s] running install_data
+[5.051s] Invoked command in '/home/cat/agv_ws/build/path_plan' returned '0': PYTHONPATH=/home/cat/agv_ws/build/path_plan/prefix_override:/home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cat/agv_ws/build/path_plan/build --no-deps install_data

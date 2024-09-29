@@ -1,0 +1,104 @@
+[2.250s] Invoking command in '/home/cat/agv_ws/build/ums_fiction_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake /home/cat/agv_ws/src/ums_fiction_driver -DCMAKE_INSTALL_PREFIX=/home/cat/agv_ws/install/ums_fiction_driver
+[2.386s] -- The C compiler identification is GNU 11.4.0
+[2.482s] -- The CXX compiler identification is GNU 11.4.0
+[2.492s] -- Detecting C compiler ABI info
+[2.732s] -- Detecting C compiler ABI info - done
+[2.773s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.775s] -- Detecting C compile features
+[2.781s] -- Detecting C compile features - done
+[2.791s] -- Detecting CXX compiler ABI info
+[3.027s] -- Detecting CXX compiler ABI info - done
+[3.038s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.039s] -- Detecting CXX compile features
+[3.040s] -- Detecting CXX compile features - done
+[3.044s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.407s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.686s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[3.859s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.869s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.884s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.908s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.941s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.072s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.073s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.325s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.377s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.462s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.479s] -- Looking for pthread.h
+[4.708s] -- Looking for pthread.h - found
+[4.708s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.922s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.926s] -- Found Threads: TRUE  
+[5.206s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.274s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.406s] -- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+[5.432s] -- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)
+[5.953s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.082s] -- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.113s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.115s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.115s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.129s] -- Configuring for arm64
+[6.135s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.334s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.334s] -- Configured cppcheck include dirs: /home/cat/agv_ws/src/ums_fiction_driver/include;/home/cat/agv_ws/src/ums_fiction_driver/include/log4cpp;/home/cat/agv_ws/src/ums_fiction_driver/src/serial;$<BUILD_INTERFACE:/home/cat/agv_ws/src/ums_fiction_driver/include>
+[6.335s] -- Configured cppcheck exclude dirs and/or files: 
+[6.336s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.340s] -- Added test 'lint_cmake' to check CMake code style
+[6.342s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.355s] -- Added test 'uncrustify' to check C / C++ code style
+[6.355s] -- Configured uncrustify additional arguments: 
+[6.356s] -- Added test 'xmllint' to check XML markup files
+[6.356s] -- Configuring done
+[6.379s] -- Generating done
+[6.382s] -- Build files have been written to: /home/cat/agv_ws/build/ums_fiction_driver
+[6.409s] Invoked command in '/home/cat/agv_ws/build/ums_fiction_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake /home/cat/agv_ws/src/ums_fiction_driver -DCMAKE_INSTALL_PREFIX=/home/cat/agv_ws/install/ums_fiction_driver
+[6.415s] Invoking command in '/home/cat/agv_ws/build/ums_fiction_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/ums_fiction_driver -- -j8 -l8
+[6.564s] [ 50%] [32mBuilding CXX object CMakeFiles/ums_fiction_driver_node.dir/src/ums_fiction_driver_node.cpp.o[0m
+[10.879s] In file included from [01m[K/home/cat/agv_ws/src/ums_fiction_driver/include/ums_serial_methods.hpp:23[m[K,
+[10.879s]                  from [01m[K/home/cat/agv_ws/src/ums_fiction_driver/src/ums_fiction_driver_node.cpp:13[m[K:
+[10.880s] [01m[K/home/cat/agv_ws/src/ums_fiction_driver/include/queue.h:[m[K In constructor ‘[01m[KCircularQueue::CircularQueue(int)[m[K’:
+[10.880s] [01m[K/home/cat/agv_ws/src/ums_fiction_driver/include/queue.h:17:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KCircularQueue::maxSize[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.880s]    17 |     int [01;35m[KmaxSize[m[K;
+[10.881s]       |         [01;35m[K^~~~~~~[m[K
+[10.881s] [01m[K/home/cat/agv_ws/src/ums_fiction_driver/include/queue.h:15:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint CircularQueue::head[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.882s]    15 |     int [01;35m[Khead[m[K;
+[10.882s]       |         [01;35m[K^~~~[m[K
+[10.882s] [01m[K/home/cat/agv_ws/src/ums_fiction_driver/include/queue.h:21:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.883s]    21 |     [01;35m[KCircularQueue[m[K(int size) : maxSize(size), head(0), tail(0), isFull(false) {
+[10.883s]       |     [01;35m[K^~~~~~~~~~~~~[m[K
+[31.854s] [100%] [32m[1mLinking CXX executable ums_fiction_driver_node[0m
+[33.848s] [100%] Built target ums_fiction_driver_node
+[33.898s] Invoked command in '/home/cat/agv_ws/build/ums_fiction_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/ums_fiction_driver -- -j8 -l8
+[33.983s] Invoking command in '/home/cat/agv_ws/build/ums_fiction_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/ums_fiction_driver
+[34.013s] -- Install configuration: ""
+[34.013s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/lib/ums_fiction_driver/ums_fiction_driver_node
+[34.029s] -- Set runtime path of "/home/cat/agv_ws/install/ums_fiction_driver/lib/ums_fiction_driver/ums_fiction_driver_node" to ""
+[34.030s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/lib/libums_sdk.so
+[34.034s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/lib/libserial.so
+[34.034s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/lib/liblog4.so
+[34.042s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/launch
+[34.043s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/launch/ums_fiction_mini.launch.py
+[34.043s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/launch/ums_fiction_v1.launch.py
+[34.044s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/param
+[34.044s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/param/mini.yaml
+[34.045s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/param/fiction.yaml
+[34.045s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/script
+[34.046s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/script/ums.rules
+[34.046s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/script/create_udev.sh
+[34.047s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ament_index/resource_index/package_run_dependencies/ums_fiction_driver
+[34.047s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ament_index/resource_index/parent_prefix_path/ums_fiction_driver
+[34.048s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/environment/ament_prefix_path.sh
+[34.048s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/environment/ament_prefix_path.dsv
+[34.048s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/environment/path.sh
+[34.049s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/environment/path.dsv
+[34.049s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/local_setup.bash
+[34.049s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/local_setup.sh
+[34.050s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/local_setup.zsh
+[34.051s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/local_setup.dsv
+[34.054s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.dsv
+[34.055s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ament_index/resource_index/packages/ums_fiction_driver
+[34.055s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/cmake/ums_fiction_driverConfig.cmake
+[34.056s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/cmake/ums_fiction_driverConfig-version.cmake
+[34.057s] -- Installing: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.xml
+[34.058s] Invoked command in '/home/cat/agv_ws/build/ums_fiction_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/ums_fiction_driver

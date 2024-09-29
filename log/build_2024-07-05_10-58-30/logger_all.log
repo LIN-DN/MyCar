@@ -1,0 +1,507 @@
+[1.550s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.550s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff859793c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff85b78850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff85b78850>>)
+[1.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.623s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cat/agv_ws'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extensions ['ignore', 'ignore_ament_install']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extension 'ignore'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extension 'ignore_ament_install'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extensions ['colcon_pkg']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extension 'colcon_pkg'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extensions ['colcon_meta']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extension 'colcon_meta'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extensions ['ros']
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extension 'ros'
+[1.650s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fusion' with type 'ros.ament_python' and name 'fusion'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extensions ['ignore', 'ignore_ament_install']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extension 'ignore'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extension 'ignore_ament_install'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extensions ['colcon_pkg']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extension 'colcon_pkg'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extensions ['colcon_meta']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extension 'colcon_meta'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extensions ['ros']
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extension 'ros'
+[1.652s] DEBUG:colcon.colcon_core.package_identification:Package 'src/magnetic' with type 'ros.ament_cmake' and name 'magnetic'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extensions ['ignore', 'ignore_ament_install']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extension 'ignore'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extension 'ignore_ament_install'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extensions ['colcon_pkg']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extension 'colcon_pkg'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extensions ['colcon_meta']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extension 'colcon_meta'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extensions ['ros']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extension 'ros'
+[1.653s] DEBUG:colcon.colcon_core.package_identification:Package 'src/path_plan' with type 'ros.ament_python' and name 'path_plan'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extensions ['ignore', 'ignore_ament_install']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extension 'ignore'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extension 'ignore_ament_install'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extensions ['colcon_pkg']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extension 'colcon_pkg'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extensions ['colcon_meta']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extension 'colcon_meta'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extensions ['ros']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extension 'ros'
+[1.654s] DEBUG:colcon.colcon_core.package_identification:Package 'src/path_track' with type 'ros.ament_python' and name 'path_track'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extensions ['ignore', 'ignore_ament_install']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extension 'ignore'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extension 'ignore_ament_install'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extensions ['colcon_pkg']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extension 'colcon_pkg'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extensions ['colcon_meta']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extension 'colcon_meta'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extensions ['ros']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extension 'ros'
+[1.656s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pid' with type 'ros.ament_cmake' and name 'pid'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extension 'ignore'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extension 'ignore_ament_install'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extensions ['colcon_pkg']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extension 'colcon_pkg'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extensions ['colcon_meta']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extension 'colcon_meta'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extensions ['ros']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extension 'ros'
+[1.657s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ums_fiction_driver' with type 'ros.ament_cmake' and name 'ums_fiction_driver'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extension 'ignore'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extension 'ignore_ament_install'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extensions ['colcon_pkg']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extension 'colcon_pkg'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extensions ['colcon_meta']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extension 'colcon_meta'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extensions ['ros']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extension 'ros'
+[1.659s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrpn_client_ros' with type 'ros.ament_cmake' and name 'vrpn_client_ros'
+[1.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.845s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/cat/mapping_location/install
+[1.915s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/cat/agv_ws/install
+[1.939s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/humble
+[1.941s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.093s] Level 5:colcon.colcon_core.verb:set package 'fusion' build argument 'cmake_args' from command line to 'None'
+[2.093s] Level 5:colcon.colcon_core.verb:set package 'fusion' build argument 'cmake_target' from command line to 'None'
+[2.093s] Level 5:colcon.colcon_core.verb:set package 'fusion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.094s] Level 5:colcon.colcon_core.verb:set package 'fusion' build argument 'cmake_clean_cache' from command line to 'False'
+[2.094s] Level 5:colcon.colcon_core.verb:set package 'fusion' build argument 'cmake_clean_first' from command line to 'False'
+[2.094s] Level 5:colcon.colcon_core.verb:set package 'fusion' build argument 'cmake_force_configure' from command line to 'False'
+[2.094s] Level 5:colcon.colcon_core.verb:set package 'fusion' build argument 'ament_cmake_args' from command line to 'None'
+[2.094s] Level 5:colcon.colcon_core.verb:set package 'fusion' build argument 'catkin_cmake_args' from command line to 'None'
+[2.094s] Level 5:colcon.colcon_core.verb:set package 'fusion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.094s] DEBUG:colcon.colcon_core.verb:Building package 'fusion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cat/agv_ws/build/fusion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cat/agv_ws/install/fusion', 'merge_install': False, 'path': '/home/cat/agv_ws/src/fusion', 'symlink_install': True, 'test_result_base': None}
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'magnetic' build argument 'cmake_args' from command line to 'None'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'magnetic' build argument 'cmake_target' from command line to 'None'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'magnetic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'magnetic' build argument 'cmake_clean_cache' from command line to 'False'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'magnetic' build argument 'cmake_clean_first' from command line to 'False'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'magnetic' build argument 'cmake_force_configure' from command line to 'False'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'magnetic' build argument 'ament_cmake_args' from command line to 'None'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'magnetic' build argument 'catkin_cmake_args' from command line to 'None'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'magnetic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.117s] DEBUG:colcon.colcon_core.verb:Building package 'magnetic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cat/agv_ws/build/magnetic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cat/agv_ws/install/magnetic', 'merge_install': False, 'path': '/home/cat/agv_ws/src/magnetic', 'symlink_install': True, 'test_result_base': None}
+[2.140s] Level 5:colcon.colcon_core.verb:set package 'path_plan' build argument 'cmake_args' from command line to 'None'
+[2.140s] Level 5:colcon.colcon_core.verb:set package 'path_plan' build argument 'cmake_target' from command line to 'None'
+[2.140s] Level 5:colcon.colcon_core.verb:set package 'path_plan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'path_plan' build argument 'cmake_clean_cache' from command line to 'False'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'path_plan' build argument 'cmake_clean_first' from command line to 'False'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'path_plan' build argument 'cmake_force_configure' from command line to 'False'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'path_plan' build argument 'ament_cmake_args' from command line to 'None'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'path_plan' build argument 'catkin_cmake_args' from command line to 'None'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'path_plan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.141s] DEBUG:colcon.colcon_core.verb:Building package 'path_plan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cat/agv_ws/build/path_plan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cat/agv_ws/install/path_plan', 'merge_install': False, 'path': '/home/cat/agv_ws/src/path_plan', 'symlink_install': True, 'test_result_base': None}
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'path_track' build argument 'cmake_args' from command line to 'None'
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'path_track' build argument 'cmake_target' from command line to 'None'
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'path_track' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'path_track' build argument 'cmake_clean_cache' from command line to 'False'
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'path_track' build argument 'cmake_clean_first' from command line to 'False'
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'path_track' build argument 'cmake_force_configure' from command line to 'False'
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'path_track' build argument 'ament_cmake_args' from command line to 'None'
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'path_track' build argument 'catkin_cmake_args' from command line to 'None'
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'path_track' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.163s] DEBUG:colcon.colcon_core.verb:Building package 'path_track' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cat/agv_ws/build/path_track', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cat/agv_ws/install/path_track', 'merge_install': False, 'path': '/home/cat/agv_ws/src/path_track', 'symlink_install': True, 'test_result_base': None}
+[2.185s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'cmake_args' from command line to 'None'
+[2.186s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'cmake_target' from command line to 'None'
+[2.186s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.186s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'cmake_clean_cache' from command line to 'False'
+[2.186s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'cmake_clean_first' from command line to 'False'
+[2.186s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'cmake_force_configure' from command line to 'False'
+[2.186s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'ament_cmake_args' from command line to 'None'
+[2.186s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'catkin_cmake_args' from command line to 'None'
+[2.186s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.186s] DEBUG:colcon.colcon_core.verb:Building package 'pid' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cat/agv_ws/build/pid', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cat/agv_ws/install/pid', 'merge_install': False, 'path': '/home/cat/agv_ws/src/pid', 'symlink_install': True, 'test_result_base': None}
+[2.209s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'cmake_args' from command line to 'None'
+[2.209s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'cmake_target' from command line to 'None'
+[2.209s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.209s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.209s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'cmake_clean_first' from command line to 'False'
+[2.209s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'cmake_force_configure' from command line to 'False'
+[2.209s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'ament_cmake_args' from command line to 'None'
+[2.209s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.209s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.210s] DEBUG:colcon.colcon_core.verb:Building package 'ums_fiction_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cat/agv_ws/build/ums_fiction_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cat/agv_ws/install/ums_fiction_driver', 'merge_install': False, 'path': '/home/cat/agv_ws/src/ums_fiction_driver', 'symlink_install': True, 'test_result_base': None}
+[2.232s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_args' from command line to 'None'
+[2.232s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_target' from command line to 'None'
+[2.232s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.232s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[2.232s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_clean_first' from command line to 'False'
+[2.232s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_force_configure' from command line to 'False'
+[2.232s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'ament_cmake_args' from command line to 'None'
+[2.232s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[2.232s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.232s] DEBUG:colcon.colcon_core.verb:Building package 'vrpn_client_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cat/agv_ws/build/vrpn_client_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cat/agv_ws/install/vrpn_client_ros', 'merge_install': False, 'path': '/home/cat/agv_ws/src/vrpn_client_ros', 'symlink_install': True, 'test_result_base': None}
+[2.253s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.277s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.277s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cat/agv_ws/src/fusion' with build type 'ament_python'
+[2.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('fusion', 'ament_prefix_path')
+[2.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/fusion/share/fusion/hook/ament_prefix_path.ps1'
+[2.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/fusion/share/fusion/hook/ament_prefix_path.dsv'
+[2.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/fusion/share/fusion/hook/ament_prefix_path.sh'
+[2.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.426s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cat/agv_ws/src/magnetic' with build type 'ament_cmake'
+[2.427s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cat/agv_ws/src/magnetic'
+[2.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.451s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.545s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cat/agv_ws/src/path_plan' with build type 'ament_python'
+[2.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_plan', 'ament_prefix_path')
+[2.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/path_plan/share/path_plan/hook/ament_prefix_path.ps1'
+[2.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/path_plan/share/path_plan/hook/ament_prefix_path.dsv'
+[2.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/path_plan/share/path_plan/hook/ament_prefix_path.sh'
+[2.594s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.594s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.688s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cat/agv_ws/src/path_track' with build type 'ament_python'
+[2.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_track', 'ament_prefix_path')
+[2.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/path_track/share/path_track/hook/ament_prefix_path.ps1'
+[2.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/path_track/share/path_track/hook/ament_prefix_path.dsv'
+[2.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/path_track/share/path_track/hook/ament_prefix_path.sh'
+[2.737s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.737s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.836s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cat/agv_ws/src/pid' with build type 'ament_cmake'
+[2.836s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cat/agv_ws/src/pid'
+[2.860s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.860s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.954s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cat/agv_ws/src/ums_fiction_driver' with build type 'ament_cmake'
+[2.954s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cat/agv_ws/src/ums_fiction_driver'
+[2.978s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.978s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.072s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cat/agv_ws/src/vrpn_client_ros' with build type 'ament_cmake'
+[3.073s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cat/agv_ws/src/vrpn_client_ros'
+[3.097s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.097s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.718s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cat/agv_ws/src/fusion'
+[3.743s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.743s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/agv_ws/build/magnetic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/magnetic -- -j8 -l8
+[4.413s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cat/agv_ws/src/path_plan'
+[4.437s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.036s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cat/agv_ws/src/path_track'
+[5.062s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.062s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/agv_ws/build/pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/pid -- -j8 -l8
+[5.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/agv_ws/build/ums_fiction_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake /home/cat/agv_ws/src/ums_fiction_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cat/agv_ws/install/ums_fiction_driver
+[5.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/agv_ws/build/magnetic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/magnetic -- -j8 -l8
+[5.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/agv_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/vrpn_client_ros -- -j8 -l8
+[5.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/agv_ws/build/magnetic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/magnetic
+[5.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(magnetic)
+[5.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/agv_ws/build/magnetic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/magnetic
+[5.390s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/magnetic' for CMake module files
+[5.391s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/magnetic' for CMake config files
+[5.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('magnetic', 'cmake_prefix_path')
+[5.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/magnetic/share/magnetic/hook/cmake_prefix_path.ps1'
+[5.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/magnetic/share/magnetic/hook/cmake_prefix_path.dsv'
+[5.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/magnetic/share/magnetic/hook/cmake_prefix_path.sh'
+[5.417s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/magnetic/lib'
+[5.418s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/magnetic/bin'
+[5.418s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/magnetic/lib/pkgconfig/magnetic.pc'
+[5.418s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/magnetic/lib/python3.10/site-packages'
+[5.418s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/magnetic/bin'
+[5.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/magnetic/share/magnetic/package.ps1'
+[5.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/agv_ws/install/magnetic/share/magnetic/package.dsv'
+[5.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/magnetic/share/magnetic/package.sh'
+[5.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/magnetic/share/magnetic/package.bash'
+[5.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/magnetic/share/magnetic/package.zsh'
+[5.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/agv_ws/install/magnetic/share/colcon-core/packages/magnetic)
+[5.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/agv_ws/build/pid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/pid -- -j8 -l8
+[5.605s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(magnetic)
+[5.628s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/magnetic' for CMake module files
+[5.629s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/magnetic' for CMake config files
+[5.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('magnetic', 'cmake_prefix_path')
+[5.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/magnetic/share/magnetic/hook/cmake_prefix_path.ps1'
+[5.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/magnetic/share/magnetic/hook/cmake_prefix_path.dsv'
+[5.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/magnetic/share/magnetic/hook/cmake_prefix_path.sh'
+[5.653s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/magnetic/lib'
+[5.653s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/magnetic/bin'
+[5.653s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/magnetic/lib/pkgconfig/magnetic.pc'
+[5.653s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/magnetic/lib/python3.10/site-packages'
+[5.653s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/magnetic/bin'
+[5.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/magnetic/share/magnetic/package.ps1'
+[5.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/agv_ws/install/magnetic/share/magnetic/package.dsv'
+[5.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/magnetic/share/magnetic/package.sh'
+[5.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/magnetic/share/magnetic/package.bash'
+[5.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/magnetic/share/magnetic/package.zsh'
+[5.688s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/agv_ws/install/magnetic/share/colcon-core/packages/magnetic)
+[5.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/agv_ws/build/pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/pid
+[5.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/agv_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/vrpn_client_ros -- -j8 -l8
+[5.777s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid)
+[5.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/agv_ws/build/pid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/pid
+[5.801s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/pid' for CMake module files
+[5.801s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/pid' for CMake config files
+[5.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid', 'cmake_prefix_path')
+[5.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/pid/share/pid/hook/cmake_prefix_path.ps1'
+[5.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/pid/share/pid/hook/cmake_prefix_path.dsv'
+[5.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/pid/share/pid/hook/cmake_prefix_path.sh'
+[5.828s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/pid/lib'
+[5.828s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/pid/bin'
+[5.828s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/pid/lib/pkgconfig/pid.pc'
+[5.828s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/pid/lib/python3.10/site-packages'
+[5.829s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/pid/bin'
+[5.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/pid/share/pid/package.ps1'
+[5.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/agv_ws/install/pid/share/pid/package.dsv'
+[5.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/pid/share/pid/package.sh'
+[5.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/pid/share/pid/package.bash'
+[5.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/pid/share/pid/package.zsh'
+[5.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/agv_ws/install/pid/share/colcon-core/packages/pid)
+[5.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/agv_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/vrpn_client_ros
+[5.918s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrpn_client_ros)
+[5.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/agv_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/vrpn_client_ros
+[5.942s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/vrpn_client_ros' for CMake module files
+[5.942s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/vrpn_client_ros' for CMake config files
+[5.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrpn_client_ros', 'cmake_prefix_path')
+[5.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.ps1'
+[5.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.dsv'
+[5.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.sh'
+[5.966s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/vrpn_client_ros/lib'
+[5.966s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/vrpn_client_ros/bin'
+[5.966s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/vrpn_client_ros/lib/pkgconfig/vrpn_client_ros.pc'
+[5.966s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/vrpn_client_ros/lib/python3.10/site-packages'
+[5.967s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/vrpn_client_ros/bin'
+[5.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.ps1'
+[5.989s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.dsv'
+[5.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.sh'
+[5.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.bash'
+[5.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.zsh'
+[5.991s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/agv_ws/install/vrpn_client_ros/share/colcon-core/packages/vrpn_client_ros)
+[6.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid)
+[6.042s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/pid' for CMake module files
+[6.043s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/pid' for CMake config files
+[6.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid', 'cmake_prefix_path')
+[6.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/pid/share/pid/hook/cmake_prefix_path.ps1'
+[6.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/pid/share/pid/hook/cmake_prefix_path.dsv'
+[6.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/pid/share/pid/hook/cmake_prefix_path.sh'
+[6.066s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/pid/lib'
+[6.066s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/pid/bin'
+[6.067s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/pid/lib/pkgconfig/pid.pc'
+[6.067s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/pid/lib/python3.10/site-packages'
+[6.067s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/pid/bin'
+[6.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/pid/share/pid/package.ps1'
+[6.090s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/agv_ws/install/pid/share/pid/package.dsv'
+[6.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/pid/share/pid/package.sh'
+[6.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/pid/share/pid/package.bash'
+[6.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/pid/share/pid/package.zsh'
+[6.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/agv_ws/install/pid/share/colcon-core/packages/pid)
+[6.116s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrpn_client_ros)
+[6.138s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/vrpn_client_ros' for CMake module files
+[6.139s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/vrpn_client_ros' for CMake config files
+[6.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrpn_client_ros', 'cmake_prefix_path')
+[6.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.ps1'
+[6.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.dsv'
+[6.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.sh'
+[6.166s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/vrpn_client_ros/lib'
+[6.167s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/vrpn_client_ros/bin'
+[6.167s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/vrpn_client_ros/lib/pkgconfig/vrpn_client_ros.pc'
+[6.167s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/vrpn_client_ros/lib/python3.10/site-packages'
+[6.168s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/vrpn_client_ros/bin'
+[6.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.ps1'
+[6.192s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.dsv'
+[6.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.sh'
+[6.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.bash'
+[6.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.zsh'
+[6.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/agv_ws/install/vrpn_client_ros/share/colcon-core/packages/vrpn_client_ros)
+[6.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/agv_ws/build/path_plan': PYTHONPATH=/home/cat/agv_ws/build/path_plan/prefix_override:/home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cat/agv_ws/build/path_plan/build --no-deps install_data
+[6.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/agv_ws/build/path_track': PYTHONPATH=/home/cat/agv_ws/build/path_track/prefix_override:/home/cat/agv_ws/install/path_track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cat/agv_ws/build/path_track/build --no-deps install_data
+[6.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/agv_ws/build/fusion': PYTHONPATH=/home/cat/agv_ws/build/fusion/prefix_override:/home/cat/agv_ws/install/fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cat/agv_ws/build/fusion/build --no-deps install_data
+[7.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_plan', 'pythonpath_develop')
+[7.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/agv_ws/build/path_plan' returned '0': PYTHONPATH=/home/cat/agv_ws/build/path_plan/prefix_override:/home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cat/agv_ws/build/path_plan/build --no-deps install_data
+[7.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/build/path_plan/share/path_plan/hook/pythonpath_develop.ps1'
+[7.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/build/path_plan/share/path_plan/hook/pythonpath_develop.dsv'
+[7.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/build/path_plan/share/path_plan/hook/pythonpath_develop.sh'
+[7.254s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/path_plan' for CMake module files
+[7.254s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/path_plan' for CMake config files
+[7.255s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/path_plan/lib'
+[7.255s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/path_plan/bin'
+[7.255s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/path_plan/lib/pkgconfig/path_plan.pc'
+[7.256s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages'
+[7.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_plan', 'pythonpath')
+[7.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/path_plan/share/path_plan/hook/pythonpath.ps1'
+[7.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/path_plan/share/path_plan/hook/pythonpath.dsv'
+[7.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/path_plan/share/path_plan/hook/pythonpath.sh'
+[7.278s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/path_plan/bin'
+[7.279s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_plan)
+[7.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/path_plan/share/path_plan/package.ps1'
+[7.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/agv_ws/install/path_plan/share/path_plan/package.dsv'
+[7.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/path_plan/share/path_plan/package.sh'
+[7.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/path_plan/share/path_plan/package.bash'
+[7.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/path_plan/share/path_plan/package.zsh'
+[7.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/agv_ws/install/path_plan/share/colcon-core/packages/path_plan)
+[7.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_track', 'pythonpath_develop')
+[7.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/agv_ws/build/path_track' returned '0': PYTHONPATH=/home/cat/agv_ws/build/path_track/prefix_override:/home/cat/agv_ws/install/path_track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cat/agv_ws/build/path_track/build --no-deps install_data
+[7.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/build/path_track/share/path_track/hook/pythonpath_develop.ps1'
+[7.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/build/path_track/share/path_track/hook/pythonpath_develop.dsv'
+[7.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/build/path_track/share/path_track/hook/pythonpath_develop.sh'
+[7.363s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/path_track' for CMake module files
+[7.364s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/path_track' for CMake config files
+[7.364s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/path_track/lib'
+[7.365s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/path_track/bin'
+[7.365s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/path_track/lib/pkgconfig/path_track.pc'
+[7.365s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/path_track/lib/python3.10/site-packages'
+[7.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_track', 'pythonpath')
+[7.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/path_track/share/path_track/hook/pythonpath.ps1'
+[7.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/path_track/share/path_track/hook/pythonpath.dsv'
+[7.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/path_track/share/path_track/hook/pythonpath.sh'
+[7.390s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/path_track/bin'
+[7.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_track)
+[7.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/path_track/share/path_track/package.ps1'
+[7.414s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/agv_ws/install/path_track/share/path_track/package.dsv'
+[7.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/path_track/share/path_track/package.sh'
+[7.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/path_track/share/path_track/package.bash'
+[7.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/path_track/share/path_track/package.zsh'
+[7.416s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/agv_ws/install/path_track/share/colcon-core/packages/path_track)
+[7.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/agv_ws/build/ums_fiction_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake /home/cat/agv_ws/src/ums_fiction_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cat/agv_ws/install/ums_fiction_driver
+[7.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/agv_ws/build/ums_fiction_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/ums_fiction_driver -- -j8 -l8
+[7.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('fusion', 'pythonpath_develop')
+[7.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/agv_ws/build/fusion' returned '0': PYTHONPATH=/home/cat/agv_ws/build/fusion/prefix_override:/home/cat/agv_ws/install/fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cat/agv_ws/build/fusion/build --no-deps install_data
+[7.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/build/fusion/share/fusion/hook/pythonpath_develop.ps1'
+[7.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/build/fusion/share/fusion/hook/pythonpath_develop.dsv'
+[7.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/build/fusion/share/fusion/hook/pythonpath_develop.sh'
+[7.473s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/fusion' for CMake module files
+[7.474s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/fusion' for CMake config files
+[7.475s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/fusion/lib'
+[7.475s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/fusion/bin'
+[7.475s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/fusion/lib/pkgconfig/fusion.pc'
+[7.475s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/fusion/lib/python3.10/site-packages'
+[7.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('fusion', 'pythonpath')
+[7.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/fusion/share/fusion/hook/pythonpath.ps1'
+[7.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/fusion/share/fusion/hook/pythonpath.dsv'
+[7.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/fusion/share/fusion/hook/pythonpath.sh'
+[7.501s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/fusion/bin'
+[7.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fusion)
+[7.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/fusion/share/fusion/package.ps1'
+[7.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/agv_ws/install/fusion/share/fusion/package.dsv'
+[7.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/fusion/share/fusion/package.sh'
+[7.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/fusion/share/fusion/package.bash'
+[7.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/fusion/share/fusion/package.zsh'
+[7.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/agv_ws/install/fusion/share/colcon-core/packages/fusion)
+[7.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/agv_ws/build/ums_fiction_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/ums_fiction_driver -- -j8 -l8
+[7.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/agv_ws/build/ums_fiction_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/ums_fiction_driver
+[7.825s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ums_fiction_driver)
+[7.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/agv_ws/build/ums_fiction_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/ums_fiction_driver
+[7.854s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver' for CMake module files
+[7.855s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver' for CMake config files
+[7.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('ums_fiction_driver', 'cmake_prefix_path')
+[7.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/cmake_prefix_path.ps1'
+[7.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/cmake_prefix_path.dsv'
+[7.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/cmake_prefix_path.sh'
+[7.877s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/lib'
+[7.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('ums_fiction_driver', 'ld_library_path_lib')
+[7.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/ld_library_path_lib.ps1'
+[7.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/ld_library_path_lib.dsv'
+[7.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/ld_library_path_lib.sh'
+[7.899s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/bin'
+[7.899s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/lib/pkgconfig/ums_fiction_driver.pc'
+[7.900s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/lib/python3.10/site-packages'
+[7.900s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/bin'
+[7.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.ps1'
+[7.924s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.dsv'
+[7.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.sh'
+[7.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.bash'
+[7.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.zsh'
+[7.927s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/agv_ws/install/ums_fiction_driver/share/colcon-core/packages/ums_fiction_driver)
+[8.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ums_fiction_driver)
+[8.049s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver' for CMake module files
+[8.050s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver' for CMake config files
+[8.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('ums_fiction_driver', 'cmake_prefix_path')
+[8.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/cmake_prefix_path.ps1'
+[8.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/cmake_prefix_path.dsv'
+[8.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/cmake_prefix_path.sh'
+[8.076s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/lib'
+[8.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('ums_fiction_driver', 'ld_library_path_lib')
+[8.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/ld_library_path_lib.ps1'
+[8.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/ld_library_path_lib.dsv'
+[8.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/ld_library_path_lib.sh'
+[8.101s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/bin'
+[8.101s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/lib/pkgconfig/ums_fiction_driver.pc'
+[8.102s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/lib/python3.10/site-packages'
+[8.102s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/bin'
+[8.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.ps1'
+[8.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.dsv'
+[8.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.sh'
+[8.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.bash'
+[8.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.zsh'
+[8.129s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/agv_ws/install/ums_fiction_driver/share/colcon-core/packages/ums_fiction_driver)
+[8.129s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.130s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.210s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.210s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.210s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.210s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[8.210s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.233s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cat/agv_ws/install/local_setup.ps1'
+[8.235s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cat/agv_ws/install/_local_setup_util_ps1.py'
+[8.237s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cat/agv_ws/install/setup.ps1'
+[8.262s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cat/agv_ws/install/local_setup.sh'
+[8.263s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cat/agv_ws/install/_local_setup_util_sh.py'
+[8.264s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cat/agv_ws/install/setup.sh'
+[8.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cat/agv_ws/install/local_setup.bash'
+[8.290s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cat/agv_ws/install/setup.bash'
+[8.314s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cat/agv_ws/install/local_setup.zsh'
+[8.315s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cat/agv_ws/install/setup.zsh'

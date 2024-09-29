@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing fusion.egg-info/PKG-INFO
+writing dependency_links to fusion.egg-info/dependency_links.txt
+writing entry points to fusion.egg-info/entry_points.txt
+writing requirements to fusion.egg-info/requires.txt
+writing top-level names to fusion.egg-info/top_level.txt
+reading manifest file 'fusion.egg-info/SOURCES.txt'
+writing manifest file 'fusion.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion.egg-link (link to .)
+Installing Error_node script to /home/cat/agv_ws/install/fusion/lib/fusion
+Installing UWB_distance script to /home/cat/agv_ws/install/fusion/lib/fusion
+Installing fusion_Path script to /home/cat/agv_ws/install/fusion/lib/fusion
+Installing fusion_location script to /home/cat/agv_ws/install/fusion/lib/fusion
+Installing mocap_Path script to /home/cat/agv_ws/install/fusion/lib/fusion
+Installing uwb_Path script to /home/cat/agv_ws/install/fusion/lib/fusion
+
+Installed /home/cat/agv_ws/build/fusion
+running install_data

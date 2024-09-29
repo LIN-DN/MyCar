@@ -1,0 +1,16 @@
+/home/cat/agv_ws/install/magnetic/lib/magnetic/magnetic
+/home/cat/agv_ws/install/magnetic/share/ament_index/resource_index/package_run_dependencies/magnetic
+/home/cat/agv_ws/install/magnetic/share/ament_index/resource_index/parent_prefix_path/magnetic
+/home/cat/agv_ws/install/magnetic/share/magnetic/environment/ament_prefix_path.sh
+/home/cat/agv_ws/install/magnetic/share/magnetic/environment/ament_prefix_path.dsv
+/home/cat/agv_ws/install/magnetic/share/magnetic/environment/path.sh
+/home/cat/agv_ws/install/magnetic/share/magnetic/environment/path.dsv
+/home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.bash
+/home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.sh
+/home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.zsh
+/home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.dsv
+/home/cat/agv_ws/install/magnetic/share/magnetic/package.dsv
+/home/cat/agv_ws/install/magnetic/share/ament_index/resource_index/packages/magnetic
+/home/cat/agv_ws/install/magnetic/share/magnetic/cmake/magneticConfig.cmake
+/home/cat/agv_ws/install/magnetic/share/magnetic/cmake/magneticConfig-version.cmake
+/home/cat/agv_ws/install/magnetic/share/magnetic/package.xml

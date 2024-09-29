@@ -1,0 +1,12 @@
+In file included from [01m[K/home/cat/agv_ws/src/ums_fiction_driver/include/ums_serial_methods.hpp:23[m[K,
+                 from [01m[K/home/cat/agv_ws/src/ums_fiction_driver/src/ums_fiction_driver_node.cpp:13[m[K:
+[01m[K/home/cat/agv_ws/src/ums_fiction_driver/include/queue.h:[m[K In constructor ‘[01m[KCircularQueue::CircularQueue(int)[m[K’:
+[01m[K/home/cat/agv_ws/src/ums_fiction_driver/include/queue.h:17:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KCircularQueue::maxSize[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   17 |     int [01;35m[KmaxSize[m[K;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/cat/agv_ws/src/ums_fiction_driver/include/queue.h:15:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint CircularQueue::head[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   15 |     int [01;35m[Khead[m[K;
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/cat/agv_ws/src/ums_fiction_driver/include/queue.h:21:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   21 |     [01;35m[KCircularQueue[m[K(int size) : maxSize(size), head(0), tail(0), isFull(false) {
+      |     [01;35m[K^~~~~~~~~~~~~[m[K

@@ -1,0 +1,71 @@
+[1.449s] Invoking command in '/home/cat/agv_ws/build/magnetic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake /home/cat/agv_ws/src/magnetic -DCMAKE_INSTALL_PREFIX=/home/cat/agv_ws/install/magnetic
+[2.776s] -- The C compiler identification is GNU 11.4.0
+[2.776s] -- The CXX compiler identification is GNU 11.4.0
+[2.780s] -- Detecting C compiler ABI info
+[2.782s] -- Detecting C compiler ABI info - done
+[2.783s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.784s] -- Detecting C compile features
+[2.785s] -- Detecting C compile features - done
+[2.785s] -- Detecting CXX compiler ABI info
+[2.940s] -- Detecting CXX compiler ABI info - done
+[2.980s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.981s] -- Detecting CXX compile features
+[2.983s] -- Detecting CXX compile features - done
+[3.003s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.410s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.684s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[3.827s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.865s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.900s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.109s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.272s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.280s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.698s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.810s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.859s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.885s] -- Looking for pthread.h
+[5.096s] -- Looking for pthread.h - found
+[5.096s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.262s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.266s] -- Found Threads: TRUE  
+[5.575s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.642s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.778s] -- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+[5.807s] -- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.378s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.517s] -- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.554s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.556s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.557s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.575s] -- Found msg_interfaces: 0.0.0 (/opt/ros/humble/share/msg_interfaces/cmake)
+[6.673s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.822s] -- Configuring done
+[6.846s] -- Generating done
+[6.848s] -- Build files have been written to: /home/cat/agv_ws/build/magnetic
+[6.872s] Invoked command in '/home/cat/agv_ws/build/magnetic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake /home/cat/agv_ws/src/magnetic -DCMAKE_INSTALL_PREFIX=/home/cat/agv_ws/install/magnetic
+[6.877s] Invoking command in '/home/cat/agv_ws/build/magnetic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/magnetic -- -j8 -l8
+[7.011s] [ 50%] [32mBuilding CXX object CMakeFiles/magnetic.dir/src/magnetic.cpp.o[0m
+[21.991s] [100%] [32m[1mLinking CXX executable magnetic[0m
+[24.577s] [100%] Built target magnetic
+[24.640s] Invoked command in '/home/cat/agv_ws/build/magnetic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/magnetic -- -j8 -l8
+[24.827s] Invoking command in '/home/cat/agv_ws/build/magnetic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/magnetic
+[24.851s] -- Install configuration: ""
+[24.852s] -- Installing: /home/cat/agv_ws/install/magnetic/lib/magnetic/magnetic
+[24.859s] -- Set runtime path of "/home/cat/agv_ws/install/magnetic/lib/magnetic/magnetic" to ""
+[24.860s] -- Installing: /home/cat/agv_ws/install/magnetic/share/ament_index/resource_index/package_run_dependencies/magnetic
+[24.861s] -- Installing: /home/cat/agv_ws/install/magnetic/share/ament_index/resource_index/parent_prefix_path/magnetic
+[24.862s] -- Installing: /home/cat/agv_ws/install/magnetic/share/magnetic/environment/ament_prefix_path.sh
+[24.862s] -- Installing: /home/cat/agv_ws/install/magnetic/share/magnetic/environment/ament_prefix_path.dsv
+[24.863s] -- Installing: /home/cat/agv_ws/install/magnetic/share/magnetic/environment/path.sh
+[24.863s] -- Installing: /home/cat/agv_ws/install/magnetic/share/magnetic/environment/path.dsv
+[24.864s] -- Installing: /home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.bash
+[24.864s] -- Installing: /home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.sh
+[24.864s] -- Installing: /home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.zsh
+[24.865s] -- Installing: /home/cat/agv_ws/install/magnetic/share/magnetic/local_setup.dsv
+[24.865s] -- Installing: /home/cat/agv_ws/install/magnetic/share/magnetic/package.dsv
+[24.866s] -- Installing: /home/cat/agv_ws/install/magnetic/share/ament_index/resource_index/packages/magnetic
+[24.866s] -- Installing: /home/cat/agv_ws/install/magnetic/share/magnetic/cmake/magneticConfig.cmake
+[24.866s] -- Installing: /home/cat/agv_ws/install/magnetic/share/magnetic/cmake/magneticConfig-version.cmake
+[24.867s] -- Installing: /home/cat/agv_ws/install/magnetic/share/magnetic/package.xml
+[24.873s] Invoked command in '/home/cat/agv_ws/build/magnetic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/magnetic

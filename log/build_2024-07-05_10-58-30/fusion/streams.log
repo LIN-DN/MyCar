@@ -1,0 +1,22 @@
+[4.084s] Invoking command in '/home/cat/agv_ws/build/fusion': PYTHONPATH=/home/cat/agv_ws/build/fusion/prefix_override:/home/cat/agv_ws/install/fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cat/agv_ws/build/fusion/build --no-deps install_data
+[4.534s] running develop
+[4.804s] running egg_info
+[4.805s] writing fusion.egg-info/PKG-INFO
+[4.805s] writing dependency_links to fusion.egg-info/dependency_links.txt
+[4.806s] writing entry points to fusion.egg-info/entry_points.txt
+[4.806s] writing requirements to fusion.egg-info/requires.txt
+[4.807s] writing top-level names to fusion.egg-info/top_level.txt
+[4.810s] reading manifest file 'fusion.egg-info/SOURCES.txt'
+[4.812s] writing manifest file 'fusion.egg-info/SOURCES.txt'
+[4.815s] running build_ext
+[4.815s] Creating /home/cat/agv_ws/install/fusion/lib/python3.10/site-packages/fusion.egg-link (link to .)
+[4.816s] Installing Error_node script to /home/cat/agv_ws/install/fusion/lib/fusion
+[4.817s] Installing UWB_distance script to /home/cat/agv_ws/install/fusion/lib/fusion
+[4.818s] Installing fusion_Path script to /home/cat/agv_ws/install/fusion/lib/fusion
+[4.818s] Installing fusion_location script to /home/cat/agv_ws/install/fusion/lib/fusion
+[4.819s] Installing mocap_Path script to /home/cat/agv_ws/install/fusion/lib/fusion
+[4.819s] Installing uwb_Path script to /home/cat/agv_ws/install/fusion/lib/fusion
+[4.820s] 
+[4.820s] Installed /home/cat/agv_ws/build/fusion
+[4.821s] running install_data
+[5.143s] Invoked command in '/home/cat/agv_ws/build/fusion' returned '0': PYTHONPATH=/home/cat/agv_ws/build/fusion/prefix_override:/home/cat/agv_ws/install/fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cat/agv_ws/build/fusion/build --no-deps install_data

@@ -1,0 +1,11 @@
+/motion_control:
+  ros__parameters:
+    Car_type: 1
+    PID_D: 0.2
+    PID_I: 0.6
+    PID_P: 4.0
+    Speculative_time: 10
+    Wheel_base: 0.20000000298023224
+    Wheel_pitch: 0.20000000298023224
+    use_sim_time: false
+

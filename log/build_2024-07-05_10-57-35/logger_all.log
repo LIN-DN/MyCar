@@ -1,0 +1,219 @@
+[2.004s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ums_fiction_driver']
+[2.004s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ums_fiction_driver'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffaccb9450>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaceb8b50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaceb8b50>>)
+[2.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.113s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cat/agv_ws'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extensions ['ignore', 'ignore_ament_install']
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extension 'ignore'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extension 'ignore_ament_install'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extensions ['colcon_pkg']
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extension 'colcon_pkg'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extensions ['colcon_meta']
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extension 'colcon_meta'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extensions ['ros']
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion) by extension 'ros'
+[2.146s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fusion' with type 'ros.ament_python' and name 'fusion'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extensions ['ignore', 'ignore_ament_install']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extension 'ignore'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extension 'ignore_ament_install'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extensions ['colcon_pkg']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extension 'colcon_pkg'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extensions ['colcon_meta']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extension 'colcon_meta'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extensions ['ros']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/magnetic) by extension 'ros'
+[2.149s] DEBUG:colcon.colcon_core.package_identification:Package 'src/magnetic' with type 'ros.ament_cmake' and name 'magnetic'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extensions ['ignore', 'ignore_ament_install']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extension 'ignore'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extension 'ignore_ament_install'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extensions ['colcon_pkg']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extension 'colcon_pkg'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extensions ['colcon_meta']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extension 'colcon_meta'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extensions ['ros']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_plan) by extension 'ros'
+[2.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/path_plan' with type 'ros.ament_python' and name 'path_plan'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extensions ['ignore', 'ignore_ament_install']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extension 'ignore'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extension 'ignore_ament_install'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extensions ['colcon_pkg']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extension 'colcon_pkg'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extensions ['colcon_meta']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extension 'colcon_meta'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extensions ['ros']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_track) by extension 'ros'
+[2.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/path_track' with type 'ros.ament_python' and name 'path_track'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extensions ['ignore', 'ignore_ament_install']
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extension 'ignore'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extension 'ignore_ament_install'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extensions ['colcon_pkg']
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extension 'colcon_pkg'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extensions ['colcon_meta']
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extension 'colcon_meta'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extensions ['ros']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extension 'ros'
+[2.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pid' with type 'ros.ament_cmake' and name 'pid'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extension 'ignore'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extension 'ignore_ament_install'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extensions ['colcon_pkg']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extension 'colcon_pkg'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extensions ['colcon_meta']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extension 'colcon_meta'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extensions ['ros']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ums_fiction_driver) by extension 'ros'
+[2.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ums_fiction_driver' with type 'ros.ament_cmake' and name 'ums_fiction_driver'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extensions ['ignore', 'ignore_ament_install']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extension 'ignore'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extension 'ignore_ament_install'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extensions ['colcon_pkg']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extension 'colcon_pkg'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extensions ['colcon_meta']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extension 'colcon_meta'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extensions ['ros']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extension 'ros'
+[2.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrpn_client_ros' with type 'ros.ament_cmake' and name 'vrpn_client_ros'
+[2.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.275s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fusion' in 'src/fusion'
+[2.275s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'magnetic' in 'src/magnetic'
+[2.275s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'path_plan' in 'src/path_plan'
+[2.275s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'path_track' in 'src/path_track'
+[2.275s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pid' in 'src/pid'
+[2.276s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vrpn_client_ros' in 'src/vrpn_client_ros'
+[2.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.372s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/cat/mapping_location/install
+[2.440s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/cat/agv_ws/install
+[2.465s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/humble
+[2.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'cmake_args' from command line to 'None'
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'cmake_target' from command line to 'None'
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'cmake_clean_first' from command line to 'False'
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'cmake_force_configure' from command line to 'False'
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'ament_cmake_args' from command line to 'None'
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'ums_fiction_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.623s] DEBUG:colcon.colcon_core.verb:Building package 'ums_fiction_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cat/agv_ws/build/ums_fiction_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cat/agv_ws/install/ums_fiction_driver', 'merge_install': False, 'path': '/home/cat/agv_ws/src/ums_fiction_driver', 'symlink_install': False, 'test_result_base': None}
+[2.646s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.671s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.671s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cat/agv_ws/src/ums_fiction_driver' with build type 'ament_cmake'
+[2.671s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cat/agv_ws/src/ums_fiction_driver'
+[2.705s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.705s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.705s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/agv_ws/build/ums_fiction_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake /home/cat/agv_ws/src/ums_fiction_driver -DCMAKE_INSTALL_PREFIX=/home/cat/agv_ws/install/ums_fiction_driver
+[5.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/agv_ws/build/ums_fiction_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake /home/cat/agv_ws/src/ums_fiction_driver -DCMAKE_INSTALL_PREFIX=/home/cat/agv_ws/install/ums_fiction_driver
+[5.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/agv_ws/build/ums_fiction_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/ums_fiction_driver -- -j8 -l8
+[34.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/agv_ws/build/ums_fiction_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --build /home/cat/agv_ws/build/ums_fiction_driver -- -j8 -l8
+[34.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/agv_ws/build/ums_fiction_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/ums_fiction_driver
+[34.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ums_fiction_driver)
+[34.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/agv_ws/build/ums_fiction_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble /usr/bin/cmake --install /home/cat/agv_ws/build/ums_fiction_driver
+[34.447s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver' for CMake module files
+[34.448s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver' for CMake config files
+[34.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('ums_fiction_driver', 'cmake_prefix_path')
+[34.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/cmake_prefix_path.ps1'
+[34.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/cmake_prefix_path.dsv'
+[34.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/cmake_prefix_path.sh'
+[34.478s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/lib'
+[34.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('ums_fiction_driver', 'ld_library_path_lib')
+[34.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/ld_library_path_lib.ps1'
+[34.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/ld_library_path_lib.dsv'
+[34.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/ld_library_path_lib.sh'
+[34.502s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/bin'
+[34.503s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/lib/pkgconfig/ums_fiction_driver.pc'
+[34.503s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/lib/python3.10/site-packages'
+[34.503s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/bin'
+[34.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.ps1'
+[34.529s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.dsv'
+[34.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.sh'
+[34.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.bash'
+[34.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.zsh'
+[34.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/agv_ws/install/ums_fiction_driver/share/colcon-core/packages/ums_fiction_driver)
+[34.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ums_fiction_driver)
+[34.655s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver' for CMake module files
+[34.655s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver' for CMake config files
+[34.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('ums_fiction_driver', 'cmake_prefix_path')
+[34.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/cmake_prefix_path.ps1'
+[34.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/cmake_prefix_path.dsv'
+[34.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/cmake_prefix_path.sh'
+[34.681s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/lib'
+[34.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('ums_fiction_driver', 'ld_library_path_lib')
+[34.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/ld_library_path_lib.ps1'
+[34.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/ld_library_path_lib.dsv'
+[34.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/hook/ld_library_path_lib.sh'
+[34.706s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/bin'
+[34.706s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/lib/pkgconfig/ums_fiction_driver.pc'
+[34.706s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/lib/python3.10/site-packages'
+[34.707s] Level 1:colcon.colcon_core.environment:checking '/home/cat/agv_ws/install/ums_fiction_driver/bin'
+[34.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.ps1'
+[34.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.dsv'
+[34.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.sh'
+[34.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.bash'
+[34.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.zsh'
+[34.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/agv_ws/install/ums_fiction_driver/share/colcon-core/packages/ums_fiction_driver)
+[34.734s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[34.735s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[34.735s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[34.735s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[34.769s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[34.770s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[34.770s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[34.770s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[34.770s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[34.793s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cat/agv_ws/install/local_setup.ps1'
+[34.795s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cat/agv_ws/install/_local_setup_util_ps1.py'
+[34.798s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cat/agv_ws/install/setup.ps1'
+[34.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cat/agv_ws/install/local_setup.sh'
+[34.825s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cat/agv_ws/install/_local_setup_util_sh.py'
+[34.826s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cat/agv_ws/install/setup.sh'
+[34.853s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cat/agv_ws/install/local_setup.bash'
+[34.854s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cat/agv_ws/install/setup.bash'
+[34.879s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cat/agv_ws/install/local_setup.zsh'
+[34.881s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cat/agv_ws/install/setup.zsh'

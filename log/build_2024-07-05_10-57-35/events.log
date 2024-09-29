@@ -1,0 +1,414 @@
+[0.000000] (-) TimerEvent: {}
+[0.001154] (-) JobUnselected: {'identifier': 'fusion'}
+[0.001489] (-) JobUnselected: {'identifier': 'magnetic'}
+[0.001746] (-) JobUnselected: {'identifier': 'path_plan'}
+[0.001925] (-) JobUnselected: {'identifier': 'path_track'}
+[0.002050] (-) JobUnselected: {'identifier': 'pid'}
+[0.002288] (-) JobUnselected: {'identifier': 'vrpn_client_ros'}
+[0.002565] (ums_fiction_driver) JobQueued: {'identifier': 'ums_fiction_driver', 'dependencies': OrderedDict()}
+[0.002793] (ums_fiction_driver) JobStarted: {'identifier': 'ums_fiction_driver'}
+[0.098490] (-) TimerEvent: {}
+[0.138743] (ums_fiction_driver) JobProgress: {'identifier': 'ums_fiction_driver', 'progress': 'cmake'}
+[0.141139] (ums_fiction_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/cat/agv_ws/src/ums_fiction_driver', '-DCMAKE_INSTALL_PREFIX=/home/cat/agv_ws/install/ums_fiction_driver'], 'cwd': '/home/cat/agv_ws/build/ums_fiction_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'cat'), ('LC_TIME', 'zh_CN.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/cat/ORB_SLAM3/Examples/ROS:/home/cat/ORB_SLAM3/Examples/ROS'), ('GIT_ASKPASS', '/usr/lib/code-server/lib/vscode/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cat/agv_ws/install/ums_fiction_driver/lib:/home/cat/mapping_location/install/cartographer_rviz/lib:/home/cat/mapping_location/install/cartographer_ros/lib:/home/cat/mapping_location/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/usr/lib/code-server/lib/vscode/bin/helpers/browser.sh'), ('HOME', '/home/cat'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><NetworkInterfaceAddress>wlan0</NetworkInterfaceAddress></General></Domain></CycloneDDS>'), ('OLDPWD', '/home/cat'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-a9669d56-300f-469e-b44e-8fdde13e022c.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/lib/code-server/lib/vscode/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/lib/code-server/lib/node'), ('SYSTEMD_EXEC_PID', '863'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/cat/mapping_location/install:/home/cat/agv_ws/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cat'), ('JOURNAL_STREAM', '8:36344'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/cat/mapping_location/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/cat/mapping_location/install/cartographer/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/lib/code-server/lib/vscode/bin/remote-cli:/home/cat/.local/bin:/home/cat/mapping_location/install/cartographer/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', 'eda8af5adf214db48658c3a18264fda9'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('VSCODE_PROXY_URI', 'http://10.51.128.167:8080/proxy/{{port}}/'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-02c7f47886.sock'), ('NODE_EXEC_PATH', '/usr/lib/code-server/lib/node'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('ROS_DOMAIN_ID', '77'), ('AMENT_PREFIX_PATH', '/home/cat/agv_ws/install/vrpn_client_ros:/home/cat/agv_ws/install/ums_fiction_driver:/home/cat/agv_ws/install/pid:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/magnetic:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/sllidar_ros2:/home/cat/mapping_location/install/nav2_ai:/home/cat/mapping_location/install/mt_slam:/home/cat/mapping_location/install/ldlidar_stl_ros2:/home/cat/mapping_location/install/cartographer_rviz:/home/cat/mapping_location/install/cartographer_ros:/home/cat/mapping_location/install/cartographer_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cat/agv_ws/build/ums_fiction_driver'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cat/agv_ws/build/path_track:/home/cat/agv_ws/install/path_track/lib/python3.10/site-packages:/home/cat/agv_ws/build/path_plan:/home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages:/home/cat/agv_ws/build/fusion:/home/cat/agv_ws/install/fusion/lib/python3.10/site-packages:/home/cat/mapping_location/install/mt_slam/lib/python3.10/site-packages:/home/cat/mapping_location/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cat/agv_ws/install/vrpn_client_ros:/home/cat/agv_ws/install/ums_fiction_driver:/home/cat/agv_ws/install/pid:/home/cat/agv_ws/install/magnetic:/home/cat/mapping_location/install/sllidar_ros2:/home/cat/mapping_location/install/nav2_ai:/home/cat/mapping_location/install/ldlidar_stl_ros2:/home/cat/mapping_location/install/cartographer_rviz:/home/cat/mapping_location/install/cartographer_ros:/home/cat/mapping_location/install/cartographer_ros_msgs:/home/cat/mapping_location/install/cartographer:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble')]), 'shell': False}
+[0.198872] (-) TimerEvent: {}
+[0.267763] (ums_fiction_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299164] (-) TimerEvent: {}
+[0.400245] (-) TimerEvent: {}
+[0.501398] (-) TimerEvent: {}
+[0.602765] (-) TimerEvent: {}
+[0.623150] (ums_fiction_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.679484] (ums_fiction_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.702967] (-) TimerEvent: {}
+[0.768933] (ums_fiction_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.774288] (ums_fiction_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.788896] (ums_fiction_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.803230] (-) TimerEvent: {}
+[0.812941] (ums_fiction_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.844456] (ums_fiction_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.903574] (-) TimerEvent: {}
+[0.955674] (ums_fiction_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.960310] (ums_fiction_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.003926] (-) TimerEvent: {}
+[1.105254] (-) TimerEvent: {}
+[1.206633] (-) TimerEvent: {}
+[1.207950] (ums_fiction_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.307001] (-) TimerEvent: {}
+[1.408297] (-) TimerEvent: {}
+[1.484636] (ums_fiction_driver) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.508310] (-) TimerEvent: {}
+[1.557809] (ums_fiction_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.608408] (-) TimerEvent: {}
+[1.692183] (ums_fiction_driver) StdoutLine: {'line': b'-- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.707509] (ums_fiction_driver) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.708465] (-) TimerEvent: {}
+[1.808814] (-) TimerEvent: {}
+[1.909344] (-) TimerEvent: {}
+[2.009971] (-) TimerEvent: {}
+[2.110576] (-) TimerEvent: {}
+[2.211227] (-) TimerEvent: {}
+[2.242078] (ums_fiction_driver) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.311397] (-) TimerEvent: {}
+[2.376633] (ums_fiction_driver) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.389581] (ums_fiction_driver) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.392204] (ums_fiction_driver) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.406009] (ums_fiction_driver) StdoutLine: {'line': b'-- Configuring for arm64\n'}
+[2.407222] (ums_fiction_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.411453] (-) TimerEvent: {}
+[2.511987] (-) TimerEvent: {}
+[2.612643] (-) TimerEvent: {}
+[2.628533] (ums_fiction_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.629049] (ums_fiction_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/cat/agv_ws/src/ums_fiction_driver/include;/home/cat/agv_ws/src/ums_fiction_driver/include/log4cpp;/home/cat/agv_ws/src/ums_fiction_driver/src/serial;$<BUILD_INTERFACE:/home/cat/agv_ws/src/ums_fiction_driver/include>\n'}
+[2.629273] (ums_fiction_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.630867] (ums_fiction_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.633129] (ums_fiction_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.634503] (ums_fiction_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.641216] (ums_fiction_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.641359] (ums_fiction_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.642837] (ums_fiction_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.646154] (ums_fiction_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.688018] (ums_fiction_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[2.691471] (ums_fiction_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/cat/agv_ws/build/ums_fiction_driver\n'}
+[2.712747] (-) TimerEvent: {}
+[2.717824] (ums_fiction_driver) CommandEnded: {'returncode': 0}
+[2.719253] (ums_fiction_driver) JobProgress: {'identifier': 'ums_fiction_driver', 'progress': 'build'}
+[2.720624] (ums_fiction_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cat/agv_ws/build/ums_fiction_driver', '--', '-j8', '-l8'], 'cwd': '/home/cat/agv_ws/build/ums_fiction_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'cat'), ('LC_TIME', 'zh_CN.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/cat/ORB_SLAM3/Examples/ROS:/home/cat/ORB_SLAM3/Examples/ROS'), ('GIT_ASKPASS', '/usr/lib/code-server/lib/vscode/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cat/agv_ws/install/ums_fiction_driver/lib:/home/cat/mapping_location/install/cartographer_rviz/lib:/home/cat/mapping_location/install/cartographer_ros/lib:/home/cat/mapping_location/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/usr/lib/code-server/lib/vscode/bin/helpers/browser.sh'), ('HOME', '/home/cat'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><NetworkInterfaceAddress>wlan0</NetworkInterfaceAddress></General></Domain></CycloneDDS>'), ('OLDPWD', '/home/cat'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-a9669d56-300f-469e-b44e-8fdde13e022c.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/lib/code-server/lib/vscode/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/lib/code-server/lib/node'), ('SYSTEMD_EXEC_PID', '863'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/cat/mapping_location/install:/home/cat/agv_ws/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cat'), ('JOURNAL_STREAM', '8:36344'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/cat/mapping_location/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/cat/mapping_location/install/cartographer/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/lib/code-server/lib/vscode/bin/remote-cli:/home/cat/.local/bin:/home/cat/mapping_location/install/cartographer/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', 'eda8af5adf214db48658c3a18264fda9'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('VSCODE_PROXY_URI', 'http://10.51.128.167:8080/proxy/{{port}}/'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-02c7f47886.sock'), ('NODE_EXEC_PATH', '/usr/lib/code-server/lib/node'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('ROS_DOMAIN_ID', '77'), ('AMENT_PREFIX_PATH', '/home/cat/agv_ws/install/vrpn_client_ros:/home/cat/agv_ws/install/ums_fiction_driver:/home/cat/agv_ws/install/pid:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/magnetic:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/sllidar_ros2:/home/cat/mapping_location/install/nav2_ai:/home/cat/mapping_location/install/mt_slam:/home/cat/mapping_location/install/ldlidar_stl_ros2:/home/cat/mapping_location/install/cartographer_rviz:/home/cat/mapping_location/install/cartographer_ros:/home/cat/mapping_location/install/cartographer_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cat/agv_ws/build/ums_fiction_driver'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cat/agv_ws/build/path_track:/home/cat/agv_ws/install/path_track/lib/python3.10/site-packages:/home/cat/agv_ws/build/path_plan:/home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages:/home/cat/agv_ws/build/fusion:/home/cat/agv_ws/install/fusion/lib/python3.10/site-packages:/home/cat/mapping_location/install/mt_slam/lib/python3.10/site-packages:/home/cat/mapping_location/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cat/agv_ws/install/vrpn_client_ros:/home/cat/agv_ws/install/ums_fiction_driver:/home/cat/agv_ws/install/pid:/home/cat/agv_ws/install/magnetic:/home/cat/mapping_location/install/sllidar_ros2:/home/cat/mapping_location/install/nav2_ai:/home/cat/mapping_location/install/ldlidar_stl_ros2:/home/cat/mapping_location/install/cartographer_rviz:/home/cat/mapping_location/install/cartographer_ros:/home/cat/mapping_location/install/cartographer_ros_msgs:/home/cat/mapping_location/install/cartographer:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble')]), 'shell': False}
+[2.812939] (-) TimerEvent: {}
+[2.867607] (ums_fiction_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ums_fiction_driver_node\x1b[0m\n'}
+[2.913113] (-) TimerEvent: {}
+[3.005576] (ums_fiction_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ums_fiction_driver_node.dir/src/ums_fiction_driver_node.cpp.o\x1b[0m\n'}
+[3.013282] (-) TimerEvent: {}
+[3.113922] (-) TimerEvent: {}
+[3.214636] (-) TimerEvent: {}
+[3.315330] (-) TimerEvent: {}
+[3.416033] (-) TimerEvent: {}
+[3.516715] (-) TimerEvent: {}
+[3.617413] (-) TimerEvent: {}
+[3.718080] (-) TimerEvent: {}
+[3.818760] (-) TimerEvent: {}
+[3.919520] (-) TimerEvent: {}
+[4.020259] (-) TimerEvent: {}
+[4.120986] (-) TimerEvent: {}
+[4.221718] (-) TimerEvent: {}
+[4.322483] (-) TimerEvent: {}
+[4.423210] (-) TimerEvent: {}
+[4.523892] (-) TimerEvent: {}
+[4.624609] (-) TimerEvent: {}
+[4.725349] (-) TimerEvent: {}
+[4.826098] (-) TimerEvent: {}
+[4.926812] (-) TimerEvent: {}
+[5.027533] (-) TimerEvent: {}
+[5.128271] (-) TimerEvent: {}
+[5.229016] (-) TimerEvent: {}
+[5.329778] (-) TimerEvent: {}
+[5.430542] (-) TimerEvent: {}
+[5.531275] (-) TimerEvent: {}
+[5.631992] (-) TimerEvent: {}
+[5.732746] (-) TimerEvent: {}
+[5.833509] (-) TimerEvent: {}
+[5.934246] (-) TimerEvent: {}
+[6.034993] (-) TimerEvent: {}
+[6.135770] (-) TimerEvent: {}
+[6.236514] (-) TimerEvent: {}
+[6.337262] (-) TimerEvent: {}
+[6.438023] (-) TimerEvent: {}
+[6.538747] (-) TimerEvent: {}
+[6.639524] (-) TimerEvent: {}
+[6.740244] (-) TimerEvent: {}
+[6.840977] (-) TimerEvent: {}
+[6.941706] (-) TimerEvent: {}
+[7.042437] (-) TimerEvent: {}
+[7.143174] (-) TimerEvent: {}
+[7.243915] (-) TimerEvent: {}
+[7.344688] (-) TimerEvent: {}
+[7.445464] (-) TimerEvent: {}
+[7.546272] (-) TimerEvent: {}
+[7.647038] (-) TimerEvent: {}
+[7.747808] (-) TimerEvent: {}
+[7.848578] (-) TimerEvent: {}
+[7.949369] (-) TimerEvent: {}
+[7.972067] (ums_fiction_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/cat/agv_ws/src/ums_fiction_driver/include/ums_serial_methods.hpp:23\x1b[m\x1b[K,\n'}
+[7.972775] (ums_fiction_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/cat/agv_ws/src/ums_fiction_driver/src/ums_fiction_driver_node.cpp:13\x1b[m\x1b[K:\n'}
+[7.972965] (ums_fiction_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cat/agv_ws/src/ums_fiction_driver/include/queue.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCircularQueue::CircularQueue(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.973069] (ums_fiction_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cat/agv_ws/src/ums_fiction_driver/include/queue.h:17:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCircularQueue::maxSize\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.973166] (ums_fiction_driver) StderrLine: {'line': b'   17 |     int \x1b[01;35m\x1b[KmaxSize\x1b[m\x1b[K;\n'}
+[7.973247] (ums_fiction_driver) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.973329] (ums_fiction_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cat/agv_ws/src/ums_fiction_driver/include/queue.h:15:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kint CircularQueue::head\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.973417] (ums_fiction_driver) StderrLine: {'line': b'   15 |     int \x1b[01;35m\x1b[Khead\x1b[m\x1b[K;\n'}
+[7.973495] (ums_fiction_driver) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.973572] (ums_fiction_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cat/agv_ws/src/ums_fiction_driver/include/queue.h:21:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.973655] (ums_fiction_driver) StderrLine: {'line': b'   21 |     \x1b[01;35m\x1b[KCircularQueue\x1b[m\x1b[K(int size) : maxSize(size), head(0), tail(0), isFull(false) {\n'}
+[7.973770] (ums_fiction_driver) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.049556] (-) TimerEvent: {}
+[8.150336] (-) TimerEvent: {}
+[8.251118] (-) TimerEvent: {}
+[8.351873] (-) TimerEvent: {}
+[8.452646] (-) TimerEvent: {}
+[8.553371] (-) TimerEvent: {}
+[8.654118] (-) TimerEvent: {}
+[8.754845] (-) TimerEvent: {}
+[8.855577] (-) TimerEvent: {}
+[8.956322] (-) TimerEvent: {}
+[9.057048] (-) TimerEvent: {}
+[9.157785] (-) TimerEvent: {}
+[9.258512] (-) TimerEvent: {}
+[9.359234] (-) TimerEvent: {}
+[9.459950] (-) TimerEvent: {}
+[9.560627] (-) TimerEvent: {}
+[9.661255] (-) TimerEvent: {}
+[9.761816] (-) TimerEvent: {}
+[9.862447] (-) TimerEvent: {}
+[9.963068] (-) TimerEvent: {}
+[10.063675] (-) TimerEvent: {}
+[10.164304] (-) TimerEvent: {}
+[10.264917] (-) TimerEvent: {}
+[10.365558] (-) TimerEvent: {}
+[10.466279] (-) TimerEvent: {}
+[10.566979] (-) TimerEvent: {}
+[10.667591] (-) TimerEvent: {}
+[10.768173] (-) TimerEvent: {}
+[10.868818] (-) TimerEvent: {}
+[10.969459] (-) TimerEvent: {}
+[11.070059] (-) TimerEvent: {}
+[11.170689] (-) TimerEvent: {}
+[11.271378] (-) TimerEvent: {}
+[11.372046] (-) TimerEvent: {}
+[11.472742] (-) TimerEvent: {}
+[11.573386] (-) TimerEvent: {}
+[11.674008] (-) TimerEvent: {}
+[11.774599] (-) TimerEvent: {}
+[11.875255] (-) TimerEvent: {}
+[11.975969] (-) TimerEvent: {}
+[12.076730] (-) TimerEvent: {}
+[12.177476] (-) TimerEvent: {}
+[12.278212] (-) TimerEvent: {}
+[12.378948] (-) TimerEvent: {}
+[12.479705] (-) TimerEvent: {}
+[12.580405] (-) TimerEvent: {}
+[12.681051] (-) TimerEvent: {}
+[12.781653] (-) TimerEvent: {}
+[12.882277] (-) TimerEvent: {}
+[12.982928] (-) TimerEvent: {}
+[13.083632] (-) TimerEvent: {}
+[13.184319] (-) TimerEvent: {}
+[13.284968] (-) TimerEvent: {}
+[13.385594] (-) TimerEvent: {}
+[13.486261] (-) TimerEvent: {}
+[13.586901] (-) TimerEvent: {}
+[13.687533] (-) TimerEvent: {}
+[13.788193] (-) TimerEvent: {}
+[13.888937] (-) TimerEvent: {}
+[13.989701] (-) TimerEvent: {}
+[14.090151] (-) TimerEvent: {}
+[14.190691] (-) TimerEvent: {}
+[14.291224] (-) TimerEvent: {}
+[14.391740] (-) TimerEvent: {}
+[14.492220] (-) TimerEvent: {}
+[14.592711] (-) TimerEvent: {}
+[14.693172] (-) TimerEvent: {}
+[14.793658] (-) TimerEvent: {}
+[14.894240] (-) TimerEvent: {}
+[14.995011] (-) TimerEvent: {}
+[15.095867] (-) TimerEvent: {}
+[15.196695] (-) TimerEvent: {}
+[15.297418] (-) TimerEvent: {}
+[15.398111] (-) TimerEvent: {}
+[15.498809] (-) TimerEvent: {}
+[15.599558] (-) TimerEvent: {}
+[15.700320] (-) TimerEvent: {}
+[15.801086] (-) TimerEvent: {}
+[15.901833] (-) TimerEvent: {}
+[16.002604] (-) TimerEvent: {}
+[16.103354] (-) TimerEvent: {}
+[16.204092] (-) TimerEvent: {}
+[16.304848] (-) TimerEvent: {}
+[16.405610] (-) TimerEvent: {}
+[16.506301] (-) TimerEvent: {}
+[16.606753] (-) TimerEvent: {}
+[16.707202] (-) TimerEvent: {}
+[16.807687] (-) TimerEvent: {}
+[16.908345] (-) TimerEvent: {}
+[17.009454] (-) TimerEvent: {}
+[17.110533] (-) TimerEvent: {}
+[17.211636] (-) TimerEvent: {}
+[17.312724] (-) TimerEvent: {}
+[17.413850] (-) TimerEvent: {}
+[17.514922] (-) TimerEvent: {}
+[17.615997] (-) TimerEvent: {}
+[17.717186] (-) TimerEvent: {}
+[17.818298] (-) TimerEvent: {}
+[17.919477] (-) TimerEvent: {}
+[18.020541] (-) TimerEvent: {}
+[18.121613] (-) TimerEvent: {}
+[18.222712] (-) TimerEvent: {}
+[18.323793] (-) TimerEvent: {}
+[18.424854] (-) TimerEvent: {}
+[18.525931] (-) TimerEvent: {}
+[18.627130] (-) TimerEvent: {}
+[18.728364] (-) TimerEvent: {}
+[18.829578] (-) TimerEvent: {}
+[18.930742] (-) TimerEvent: {}
+[19.031923] (-) TimerEvent: {}
+[19.133272] (-) TimerEvent: {}
+[19.234858] (-) TimerEvent: {}
+[19.336300] (-) TimerEvent: {}
+[19.437555] (-) TimerEvent: {}
+[19.539144] (-) TimerEvent: {}
+[19.640478] (-) TimerEvent: {}
+[19.742003] (-) TimerEvent: {}
+[19.843666] (-) TimerEvent: {}
+[19.945206] (-) TimerEvent: {}
+[20.046789] (-) TimerEvent: {}
+[20.148330] (-) TimerEvent: {}
+[20.249844] (-) TimerEvent: {}
+[20.351307] (-) TimerEvent: {}
+[20.452832] (-) TimerEvent: {}
+[20.554284] (-) TimerEvent: {}
+[20.655767] (-) TimerEvent: {}
+[20.757286] (-) TimerEvent: {}
+[20.858773] (-) TimerEvent: {}
+[20.960275] (-) TimerEvent: {}
+[21.061754] (-) TimerEvent: {}
+[21.163260] (-) TimerEvent: {}
+[21.264754] (-) TimerEvent: {}
+[21.366257] (-) TimerEvent: {}
+[21.467694] (-) TimerEvent: {}
+[21.569151] (-) TimerEvent: {}
+[21.670598] (-) TimerEvent: {}
+[21.772080] (-) TimerEvent: {}
+[21.873659] (-) TimerEvent: {}
+[21.975111] (-) TimerEvent: {}
+[22.076556] (-) TimerEvent: {}
+[22.177950] (-) TimerEvent: {}
+[22.279357] (-) TimerEvent: {}
+[22.380744] (-) TimerEvent: {}
+[22.482123] (-) TimerEvent: {}
+[22.583581] (-) TimerEvent: {}
+[22.684951] (-) TimerEvent: {}
+[22.786335] (-) TimerEvent: {}
+[22.887704] (-) TimerEvent: {}
+[22.989136] (-) TimerEvent: {}
+[23.090687] (-) TimerEvent: {}
+[23.192054] (-) TimerEvent: {}
+[23.293496] (-) TimerEvent: {}
+[23.394888] (-) TimerEvent: {}
+[23.496336] (-) TimerEvent: {}
+[23.597717] (-) TimerEvent: {}
+[23.699133] (-) TimerEvent: {}
+[23.800518] (-) TimerEvent: {}
+[23.901895] (-) TimerEvent: {}
+[24.003300] (-) TimerEvent: {}
+[24.104678] (-) TimerEvent: {}
+[24.206099] (-) TimerEvent: {}
+[24.307533] (-) TimerEvent: {}
+[24.408966] (-) TimerEvent: {}
+[24.510420] (-) TimerEvent: {}
+[24.611847] (-) TimerEvent: {}
+[24.713305] (-) TimerEvent: {}
+[24.814726] (-) TimerEvent: {}
+[24.916137] (-) TimerEvent: {}
+[25.017548] (-) TimerEvent: {}
+[25.118977] (-) TimerEvent: {}
+[25.220410] (-) TimerEvent: {}
+[25.321798] (-) TimerEvent: {}
+[25.423317] (-) TimerEvent: {}
+[25.524527] (-) TimerEvent: {}
+[25.625254] (-) TimerEvent: {}
+[25.725936] (-) TimerEvent: {}
+[25.826548] (-) TimerEvent: {}
+[25.927116] (-) TimerEvent: {}
+[26.027678] (-) TimerEvent: {}
+[26.128229] (-) TimerEvent: {}
+[26.228792] (-) TimerEvent: {}
+[26.329360] (-) TimerEvent: {}
+[26.429976] (-) TimerEvent: {}
+[26.530595] (-) TimerEvent: {}
+[26.631296] (-) TimerEvent: {}
+[26.732015] (-) TimerEvent: {}
+[26.832752] (-) TimerEvent: {}
+[26.933349] (-) TimerEvent: {}
+[27.034007] (-) TimerEvent: {}
+[27.134653] (-) TimerEvent: {}
+[27.235296] (-) TimerEvent: {}
+[27.335952] (-) TimerEvent: {}
+[27.436591] (-) TimerEvent: {}
+[27.537159] (-) TimerEvent: {}
+[27.637793] (-) TimerEvent: {}
+[27.738454] (-) TimerEvent: {}
+[27.839118] (-) TimerEvent: {}
+[27.939733] (-) TimerEvent: {}
+[28.040396] (-) TimerEvent: {}
+[28.141078] (-) TimerEvent: {}
+[28.241713] (-) TimerEvent: {}
+[28.342383] (-) TimerEvent: {}
+[28.443042] (-) TimerEvent: {}
+[28.543651] (-) TimerEvent: {}
+[28.644306] (-) TimerEvent: {}
+[28.744994] (-) TimerEvent: {}
+[28.845435] (-) TimerEvent: {}
+[28.945805] (-) TimerEvent: {}
+[29.046175] (-) TimerEvent: {}
+[29.146568] (-) TimerEvent: {}
+[29.246952] (-) TimerEvent: {}
+[29.347367] (-) TimerEvent: {}
+[29.444786] (ums_fiction_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ums_fiction_driver_node\x1b[0m\n'}
+[29.447447] (-) TimerEvent: {}
+[29.547855] (-) TimerEvent: {}
+[29.648568] (-) TimerEvent: {}
+[29.748961] (-) TimerEvent: {}
+[29.849375] (-) TimerEvent: {}
+[29.949797] (-) TimerEvent: {}
+[30.050186] (-) TimerEvent: {}
+[30.150637] (-) TimerEvent: {}
+[30.251090] (-) TimerEvent: {}
+[30.351561] (-) TimerEvent: {}
+[30.451998] (-) TimerEvent: {}
+[30.552446] (-) TimerEvent: {}
+[30.652844] (-) TimerEvent: {}
+[30.753206] (-) TimerEvent: {}
+[30.853571] (-) TimerEvent: {}
+[30.953947] (-) TimerEvent: {}
+[31.054402] (-) TimerEvent: {}
+[31.154938] (-) TimerEvent: {}
+[31.255502] (-) TimerEvent: {}
+[31.356119] (-) TimerEvent: {}
+[31.456606] (-) TimerEvent: {}
+[31.488755] (ums_fiction_driver) StdoutLine: {'line': b'[100%] Built target ums_fiction_driver_node\n'}
+[31.522682] (ums_fiction_driver) CommandEnded: {'returncode': 0}
+[31.556727] (-) TimerEvent: {}
+[31.596486] (ums_fiction_driver) JobProgress: {'identifier': 'ums_fiction_driver', 'progress': 'install'}
+[31.625900] (ums_fiction_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cat/agv_ws/build/ums_fiction_driver'], 'cwd': '/home/cat/agv_ws/build/ums_fiction_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'cat'), ('LC_TIME', 'zh_CN.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/cat/ORB_SLAM3/Examples/ROS:/home/cat/ORB_SLAM3/Examples/ROS'), ('GIT_ASKPASS', '/usr/lib/code-server/lib/vscode/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cat/agv_ws/install/ums_fiction_driver/lib:/home/cat/mapping_location/install/cartographer_rviz/lib:/home/cat/mapping_location/install/cartographer_ros/lib:/home/cat/mapping_location/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/usr/lib/code-server/lib/vscode/bin/helpers/browser.sh'), ('HOME', '/home/cat'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><NetworkInterfaceAddress>wlan0</NetworkInterfaceAddress></General></Domain></CycloneDDS>'), ('OLDPWD', '/home/cat'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-a9669d56-300f-469e-b44e-8fdde13e022c.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/lib/code-server/lib/vscode/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/lib/code-server/lib/node'), ('SYSTEMD_EXEC_PID', '863'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/cat/mapping_location/install:/home/cat/agv_ws/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cat'), ('JOURNAL_STREAM', '8:36344'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/cat/mapping_location/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/cat/mapping_location/install/cartographer/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/lib/code-server/lib/vscode/bin/remote-cli:/home/cat/.local/bin:/home/cat/mapping_location/install/cartographer/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', 'eda8af5adf214db48658c3a18264fda9'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('VSCODE_PROXY_URI', 'http://10.51.128.167:8080/proxy/{{port}}/'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-02c7f47886.sock'), ('NODE_EXEC_PATH', '/usr/lib/code-server/lib/node'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('ROS_DOMAIN_ID', '77'), ('AMENT_PREFIX_PATH', '/home/cat/agv_ws/install/vrpn_client_ros:/home/cat/agv_ws/install/ums_fiction_driver:/home/cat/agv_ws/install/pid:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/magnetic:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/sllidar_ros2:/home/cat/mapping_location/install/nav2_ai:/home/cat/mapping_location/install/mt_slam:/home/cat/mapping_location/install/ldlidar_stl_ros2:/home/cat/mapping_location/install/cartographer_rviz:/home/cat/mapping_location/install/cartographer_ros:/home/cat/mapping_location/install/cartographer_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cat/agv_ws/build/ums_fiction_driver'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cat/agv_ws/build/path_track:/home/cat/agv_ws/install/path_track/lib/python3.10/site-packages:/home/cat/agv_ws/build/path_plan:/home/cat/agv_ws/install/path_plan/lib/python3.10/site-packages:/home/cat/agv_ws/build/fusion:/home/cat/agv_ws/install/fusion/lib/python3.10/site-packages:/home/cat/mapping_location/install/mt_slam/lib/python3.10/site-packages:/home/cat/mapping_location/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cat/agv_ws/install/vrpn_client_ros:/home/cat/agv_ws/install/ums_fiction_driver:/home/cat/agv_ws/install/pid:/home/cat/agv_ws/install/magnetic:/home/cat/mapping_location/install/sllidar_ros2:/home/cat/mapping_location/install/nav2_ai:/home/cat/mapping_location/install/ldlidar_stl_ros2:/home/cat/mapping_location/install/cartographer_rviz:/home/cat/mapping_location/install/cartographer_ros:/home/cat/mapping_location/install/cartographer_ros_msgs:/home/cat/mapping_location/install/cartographer:/home/cat/agv_ws/install/path_track:/home/cat/agv_ws/install/path_plan:/home/cat/agv_ws/install/fusion:/home/cat/mapping_location/install/mt_slam:/opt/ros/humble')]), 'shell': False}
+[31.656840] (-) TimerEvent: {}
+[31.658107] (ums_fiction_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.658966] (ums_fiction_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[31.660500] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/lib/ums_fiction_driver/ums_fiction_driver_node\n'}
+[31.660881] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/lib/libums_sdk.so\n'}
+[31.661333] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/lib/libserial.so\n'}
+[31.661669] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/lib/liblog4.so\n'}
+[31.662353] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/launch/ums_fiction_mini.launch.py\n'}
+[31.662632] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/launch/ums_fiction_v1.launch.py\n'}
+[31.662956] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/param/fiction.yaml\n'}
+[31.663099] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/param/mini.yaml\n'}
+[31.663617] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/script/create_udev.sh\n'}
+[31.663738] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/script/ums.rules\n'}
+[31.663990] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ament_index/resource_index/package_run_dependencies/ums_fiction_driver\n'}
+[31.664489] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ament_index/resource_index/parent_prefix_path/ums_fiction_driver\n'}
+[31.664843] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/environment/ament_prefix_path.sh\n'}
+[31.665049] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/environment/ament_prefix_path.dsv\n'}
+[31.665488] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/environment/path.sh\n'}
+[31.665692] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/environment/path.dsv\n'}
+[31.666128] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/local_setup.bash\n'}
+[31.666542] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/local_setup.sh\n'}
+[31.666868] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/local_setup.zsh\n'}
+[31.667062] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/local_setup.dsv\n'}
+[31.667216] (ums_fiction_driver) StdoutLine: {'line': b'-- Symlinking: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.dsv\n'}
+[31.701699] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ament_index/resource_index/packages/ums_fiction_driver\n'}
+[31.702100] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/cmake/ums_fiction_driverConfig.cmake\n'}
+[31.702392] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/cmake/ums_fiction_driverConfig-version.cmake\n'}
+[31.702582] (ums_fiction_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/agv_ws/install/ums_fiction_driver/share/ums_fiction_driver/package.xml\n'}
+[31.708161] (ums_fiction_driver) CommandEnded: {'returncode': 0}
+[31.756897] (-) TimerEvent: {}
+[31.857333] (-) TimerEvent: {}
+[31.958261] (-) TimerEvent: {}
+[32.059060] (-) TimerEvent: {}
+[32.063204] (ums_fiction_driver) JobEnded: {'identifier': 'ums_fiction_driver', 'rc': 0}
+[32.064552] (-) EventReactorShutdown: {}

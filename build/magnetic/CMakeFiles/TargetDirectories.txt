@@ -1,0 +1,10 @@
+/home/cat/agv_ws/build/magnetic/CMakeFiles/uninstall.dir
+/home/cat/agv_ws/build/magnetic/CMakeFiles/magnetic_uninstall.dir
+/home/cat/agv_ws/build/magnetic/CMakeFiles/magnetic.dir
+/home/cat/agv_ws/build/magnetic/CMakeFiles/test.dir
+/home/cat/agv_ws/build/magnetic/CMakeFiles/edit_cache.dir
+/home/cat/agv_ws/build/magnetic/CMakeFiles/rebuild_cache.dir
+/home/cat/agv_ws/build/magnetic/CMakeFiles/list_install_components.dir
+/home/cat/agv_ws/build/magnetic/CMakeFiles/install.dir
+/home/cat/agv_ws/build/magnetic/CMakeFiles/install/local.dir
+/home/cat/agv_ws/build/magnetic/CMakeFiles/install/strip.dir

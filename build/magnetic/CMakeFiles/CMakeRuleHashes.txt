@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+0c794e34fde07f80c8bb35d57e978617 CMakeFiles/magnetic_uninstall
